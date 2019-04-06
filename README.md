@@ -1,4 +1,4 @@
-# solutions-architecture-patterns
+# Solutions Architecture Patterns
 This repository contains solutions architecture patterns which can be reused to build enterprise software systems
 
 - Layered architecture pattern
