@@ -19,7 +19,7 @@ Enterprise software systems are typically running down under and most of the end
 
 Instead of building a one large monolith which has all these capabilities, the solutions architects over the time has identified that building a system with a layered architecture provides more flexibility when it comes to adding more and more features based on the business requirements. It also allows each layers to be independently scale, update and have their own technology which is best suited for the task. Building a layered architecture requires the designers of this architecture to understand what each layer does and how these layers are interact with each other so that those layers are loosely coupled. 
 
-![Layered Architecture Pattern](Layered%20architecture%20pattern.png)
+![Layered Architecture Pattern](Layered-architecture-pattern.png)
 
 #### Data Access Layer
 As depicted in the above picture, core system which is providing the data which is stored in databases is built through the data access layer. This layer will make sure that data is accessible over a more systematic mechanism like SOAP or REST by converting the complexities of database connection handling and transactional behaviours. 
