@@ -2,7 +2,7 @@
 This repository contains solutions architecture patterns which can be reused to build enterprise software systems
 
 - Layered architecture pattern
-![Layered Architecture Pattern](Layered%20architecture%20pattern.png)
+[Layered Architecture Pattern](Layered-Architecture-Pattern.md)
 
 
 - Micro architecture pattern
