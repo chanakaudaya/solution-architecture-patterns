@@ -43,6 +43,17 @@ On top of all these modern security frameworks, there are some enterprises who s
 #### Token exchange with existing security mechanisms
 Sometimes as an enterprise solutions architect, you need to introduce new concepts like API management without modifying the existing applications and the user experience. If the end user applications are out of your control, you might not have the luxury of completely introducing a new security mechanism like OAuth2 with these applications. In such cases, you need to build your api management layer so that it can interoperate with the existing security mechanisms like SAML2, Kerberos, NTLM and build a token exchange mechanism around the applications. Users might not see the difference in security implementation since you can either have a token proxy at the enterprise level or develop some code at the client side applications to perform the token exchange. 
 
+### API Gateway and the Identity Provider
+API Gateway (sometimes called as API Manager) is the runtime component which recieves all the requests from different users through applications. It is the duty of gateway to validate the user requests before calling the actual endpoints which provides the business information. API Gateway uses a special component to validate the user identities and the access control levels named as Identity Provider. It can be a fully fledged Identity and Access Management product or a component built as part of the same API Management product (e.g. Key Manager). This Identity Provider component takes care of all the security related tasks like
 
+- User management
+- Key and token management (OAuth2 and OIDC)
+- Entitlement management (XACML)
+- Authentication
+- Authorization
 
+Sometimes, the same IdP is used for managing authentication and authorization for existing back end applications as well. If a user wants to access an API through an application, user will be redirected to the authentication endpoint of this IdP (or to another IdP if there is federation) and the user credentials are provided here. These user credentials are securely stored within this IdP. If the enterprise already has an IdP, it makes sense to use that to provide these token validation and token generation functionalities. To do that, the particular IdP should have the retrospective API implemented on that server. 
+
+### Connecting to backend endpoints
+Sometimes the authentication and authorization at the API Gateway is not sufficient and the back end services also expects some information about the user to validate the data access at that level. In such cases, most of the time, API gateway should pass the basic authentication information coming from the client side or a JWT generated out of the access token.
 
