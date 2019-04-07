@@ -29,10 +29,20 @@ User authentication is the basic requirement of providing access to any system. 
 
 Due to various reasons, people wanted a mechanism to reuse their existing identities without compromising their credentials so that you can use different applications while having a single username password pair stored in one system which you trust. In a business or enterprise scenario, you can have your enterprise account where your credentials are stored securely in enterprise user store (LDAP, AD). 
 
+### API Security mechanisms
+
+#### OAuth2
 OAuth2 has become the defacto standard in securing APIs through access delegation mechanism. With OAuth2, you can give permissions for an applications to access a certain set of resources on behalf of you to provide a valuable service to you without giving your credentials. With this model, you authenticate against your secured identity provider. The application (web, mobile) will get an access token on behalf of you and access the information which you are allowed through the token. 
 
+#### OIDC
 Sometimes these applications wanted to identify the user information (without password) and the OAuth2 framework didn't have a standard mechanism to do this. Because of this limitation, engineers came up with the Open ID Connect (OIDC) framework through that applications can request for basic user information once the user had given permissions to access a certain resource (with user consent).
 
+#### Basic Authentication
 On top of all these modern security frameworks, there are some enterprises who still uses username and password based authentication (basic authentication) for API security. 
+
+#### Token exchange with existing security mechanisms
+Sometimes as an enterprise solutions architect, you need to introduce new concepts like API management without modifying the existing applications and the user experience. If the end user applications are out of your control, you might not have the luxury of completely introducing a new security mechanism like OAuth2 with these applications. In such cases, you need to build your api management layer so that it can interoperate with the existing security mechanisms like SAML2, Kerberos, NTLM and build a token exchange mechanism around the applications. Users might not see the difference in security implementation since you can either have a token proxy at the enterprise level or develop some code at the client side applications to perform the token exchange. 
+
+
 
 
