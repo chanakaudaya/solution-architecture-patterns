@@ -9,3 +9,6 @@ This repository contains solutions architecture patterns which can be reused to 
 
 - Hybrid Integration pattern
 [Hybrid Integration Pattern](Hybrid-Integration-Pattern.md)
+
+- API Security pattern
+[API Security Pattern](API-Security-Pattern.md)
