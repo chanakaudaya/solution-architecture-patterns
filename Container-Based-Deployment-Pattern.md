@@ -29,3 +29,38 @@ Instead of putting a layer which is capable of providing centralized QOS capabil
 - Throttling
 - Monitoring
 
+In container world, you can package your application code along with any dependencies into a container image using a container descriptor file (e.g. Dockerfile) and it became a container in the runtime which runs your application. Let's consider every application which you develop as a Service (in MSA) or a Function (in Serverless). All these services needs some form of QOS capabilities which are mentioned above. Instead of implementing these capabilities at the service level or using a centralized API gateway, we can use a component called "Sidecar Proxy" which can provide the same functionality. Regardless of the technology you used to implement your service (.Net, Java, Go, Node, etc.), these QOS functionalities will be provided through this sidecar proxy. If your applications requires a database to store some persistent data, you may need a supportive or dependent service or function. So every service can consist of 
+
+- Main Service or Function
+- Sidecar Proxy
+- Supportive Service or Function
+
+All the above components can be run in separate containers or within the same continer if there is no container orchestration capability available. In a platform like kubernetes, these 3 components can be run within the same "Pod" as depicted in the figure.
+
+#### Scaling services
+Once we have the service deployed in a Pod, we need to look at the next level functionality like
+
+- Availability
+- Performance
+- Scalability
+
+This is where the container orchestration systems comes into rescue. By using a container orchestration system like kubernetes, pods can be scaled to achieve the above mentioned capabilities. The scaling the "Pods" will make it harder to the ingress controller to route traffic since it has to modify the endpoints when the containers come and go. That is where the concept like "Service" helps out. 
+
+Grouping multiple pods into a "Service" make it easier to the consumers. Instead of calling multiple endpoints, any external party can call the service URL to make a call to any of the "Pods". Service layer will do the required load balancing across the pods based on a given algorithm. 
+
+These services can be mapped into an externally accessible IP address with the usage of a ingress controller. It allows external users like web, mobile and partner systems to consumer the services or functions which are deployed in continers within Pods and exposed through Services. 
+
+#### Controlling the services
+Since we decided to get rid of an API Management platform at the beginning, we should have some layer of functionality which can control the configurations of each and every sidecar proxy as and when necessary and capture valuable analytics information. A control plane is the place where this configuration of various QOS capabilities are handled. The deployment model we are proposing here is a service mesh and the role of a control plane is to control and configure the mesh. 
+
+#### Monitoring and Analytics
+In a large enterprise implementation, this architecture may consists of 100s or 1000s of services which are interacting with each other as well as consumed by external consumers. Having a proper monitoring and analytics capability is crucial when we want to 
+
+- Troubleshoot issues in services
+- Analyze the usage of services
+- Plan the business operations
+
+Monitoring and analytics can be implemented as an independent component. The standard tracing technologies like "Opentracing" can be used to publish analytics data so that services developed in polyglot manner can be monitored through a centralized analytics component which is independent of any technology used for service implementations. 
+
+### Conclusion
+This solutions architecture pattern is quite new and challenge some of the well established concept like API Management platforms while offerring the freedom to the developers to use any technology they like when implementing the business logic. All the supportive functionalities are provided through other components. There are new set of technology vendors who are developing entire platforms which abstract out all the functionalities except service development and sell the entire platform using this type of architecture pattern underneath. 
