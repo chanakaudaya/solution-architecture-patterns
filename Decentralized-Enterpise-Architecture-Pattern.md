@@ -7,7 +7,7 @@ Container based deployments are becoming more and more common within enterprise 
 
 ### Architecture
 
-![Decentralized-Enterprise-Architecture-Pattern](Container-based-deployment-pattern.png)
+![Decentralized-Enterprise-Architecture-Pattern](Decentralized-Enterprise-Architecture-Pattern.png)
 
 Let's start deciphering the above architecture diagram from the left hand side where we can find the most important entities for an enterprise which is the end users or the consumers who uses this nicely architected enterprise software system. These users can come from different channels like mobile, web and partner systems. To provide business functionality to these different channels, we can use REST APIs so that it is easier to implement from the client side. 
 
