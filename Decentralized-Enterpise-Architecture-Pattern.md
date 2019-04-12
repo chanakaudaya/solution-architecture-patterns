@@ -1,7 +1,7 @@
 ## Decentralized Enterprise Architecture Pattern
 
 ### Introduction
-Enterprise software has been used to run on mainframes or server racks with multiple CPU units and heaps of memory. The amount of energy needed to run these machines as well as the high maintenance costs has become a conern for the CIOs and CTOs. Then they decided to go with a virtualization platform where it allows the enterprise software to be run on much lesser resources. After sometime, these virtual machines also looked premature and wasting a lot of resources which can be used for other purposes. That is where the container runtimes become useful. With the rise of docker, people started thinking about running applications with the same level of isolation as virtual machines without sacrificing the compute resources to run an entire operating system on a VM. 
+Enterprise software has been used to run on mainframes or server racks with multiple CPU units and heaps of memory. The amount of energy needed to run these machines as well as the high maintenance costs has become a concern for the CIOs and CTOs. Then they decided to go with a virtualization platform where it allows the enterprise software to be run on much lesser resources. After sometime, these virtual machines also looked premature and wasting a lot of resources which can be used for other purposes. That is where the container runtimes become useful. With the rise of docker, people started thinking about running applications with the same level of isolation as virtual machines without sacrificing the compute resources to run an entire operating system on a VM. 
 
 Container based deployments are becoming more and more common within enterprise software ecosystem and there are many cloud service providers offer managed container services. This solutions architecture pattern explains how an entire enterprise software system can be built using a container based deployment model. Some of the concepts mentioned in this document may use terminology from some specific technologies. But that does not mean that this pattern can be applied in a vendor neutral manner. 
 
@@ -35,7 +35,7 @@ In container world, you can package your application code along with any depende
 - Sidecar Proxy
 - Supportive Service or Function
 
-All the above components can be run in separate containers or within the same continer if there is no container orchestration capability available. In a platform like kubernetes, these 3 components can be run within the same "Pod" as depicted in the figure.
+All the above components can be run in separate containers or within the same container if there is no container orchestration capability available. In a platform like kubernetes, these 3 components can be run within the same "Pod" as depicted in the figure.
 
 #### Scaling services
 Once we have the service deployed in a Pod, we need to look at the next level functionality like
@@ -48,7 +48,7 @@ This is where the container orchestration systems comes into rescue. By using a 
 
 Grouping multiple pods into a "Service" make it easier to the consumers. Instead of calling multiple endpoints, any external party can call the service URL to make a call to any of the "Pods". Service layer will do the required load balancing across the pods based on a given algorithm. 
 
-These services can be mapped into an externally accessible IP address with the usage of a ingress controller. It allows external users like web, mobile and partner systems to consumer the services or functions which are deployed in continers within Pods and exposed through Services. 
+These services can be mapped into an externally accessible IP address with the usage of a ingress controller. It allows external users like web, mobile and partner systems to consumer the services or functions which are deployed in containers within Pods and exposed through Services. 
 
 #### Controlling the services
 Since we decided to get rid of an API Management platform at the beginning, we should have some layer of functionality which can control the configurations of each and every sidecar proxy as and when necessary and capture valuable analytics information. A control plane is the place where this configuration of various QOS capabilities are handled. The deployment model we are proposing here is a service mesh and the role of a control plane is to control and configure the mesh. 
@@ -63,4 +63,4 @@ In a large enterprise implementation, this architecture may consists of 100s or 
 Monitoring and analytics can be implemented as an independent component. The standard tracing technologies like "Opentracing" can be used to publish analytics data so that services developed in polyglot manner can be monitored through a centralized analytics component which is independent of any technology used for service implementations. 
 
 ### Conclusion
-This solutions architecture pattern is quite new and challenge some of the well established concept like API Management platforms while offerring the freedom to the developers to use any technology they like when implementing the business logic. All the supportive functionalities are provided through other components. There are new set of technology vendors who are developing entire platforms which abstract out all the functionalities except service development and sell the entire platform using this type of architecture pattern underneath. 
+This solutions architecture pattern is quite new and challenge some of the well established concept like API Management platforms while offering the freedom to the developers to use any technology they like when implementing the business logic. All the supportive functionalities are provided through other components. There are new set of technology vendors who are developing entire platforms which abstract out all the functionalities except service development and sell the entire platform using this type of architecture pattern underneath. 
