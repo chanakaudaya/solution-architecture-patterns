@@ -14,4 +14,4 @@ This repository contains solutions architecture patterns which can be reused to 
 [API Security Pattern](API-Security-Pattern.md)
 
 - Conatiner Based Deployment pattern
-[Container Based Deployment Pattern](Container-Based-Deployment-Pattern.md)
+[Decentralized Enterprise Architecture Pattern](Decentralized-Enterprise-Architecture-Pattern.md)
