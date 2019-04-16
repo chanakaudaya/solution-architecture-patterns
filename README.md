@@ -1,5 +1,5 @@
 # Solutions Architecture Patterns
-This repository contains solutions architecture patterns which can be reused to build enterprise software systems
+This repository contains solutions architecture patterns which can be reused to build enterprise software systems. Some of these patterns are well established in the industry and some of them are evolving patterns while there are another set which is totally on air at conceptual level. 
 
 - Layered architecture pattern
 [Layered Architecture Pattern](Layered-Architecture-Pattern.md)
