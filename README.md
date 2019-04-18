@@ -18,6 +18,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Decentralized Enterprise Architecture pattern
 [Decentralized Enterprise Architecture Pattern](Decentralized-Enterpise-Architecture-Pattern.md)
 
+- Hybrid API Management pattern
+[Hybrid API Management Pattern](Hybrid-API-Management-Pattern.md)
+
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
