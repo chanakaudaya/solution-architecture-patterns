@@ -33,6 +33,11 @@ Enterprises are more and more moving towards cloud based infrastructure and havi
 
 In a hybrid deployment model, all the API traffic (requests) will be going through the on premise gateway runtime. In the meantime, the rest of the API management capabilities like security, analytics, lifecycle management, development, discovery will be running on the cloud. 
 
+### How it works
+Once we deploy the API Gateway within the on premise infrastructure and the rest of the components within the cloud, these components should communicate with each other to provide the end to end API Management capabilities. As an example, when a new API is created from the API development component, that API needs to be available in the gateway runtime which is running on premise. Additionally, the token validation, throttling, analytics capabilities needs to interact with the gateway runtime even though they are running in the cloud. 
+
+This communication needs to be implemented in such a way that it won't disturb the runtime traffic, does not need any special connectivity from cloud to on premise gateways. To fulfill these requirements, API gateway component needs to connect to the cloud based components in an asynchronous manner with a periodic "pull" model for API artefacts and "push" model for analytics information. In both scenarios, it is the gateway component connecting to publicy accessible cloud URLs which does not need any special connectivity from cloud to on premise data center. 
+
 ### Advantages of hybrid model 
 This deployment model provides certain advantages over the other 2 deployment choices which are on-premise and on-cloud (SaaS or PaaS). Here are few advantages.
 
