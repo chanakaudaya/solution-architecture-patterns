@@ -24,4 +24,12 @@ This repository contains solutions architecture patterns which can be reused to 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
-[Vendor Specific Architecture Patterns](vendor-specific)
+- [Apigee](vendor-specific/apigee)
+- [AWS](vendor-specific/aws)
+- [Azure](vendor-specific/azure)
+- [GCP](vendor-specific/gcp)
+- [Mulesoft](vendor-specific/mulesoft)
+- [Pivotal](vendor-specific/pivotal)
+- [RedHat](vendor-specific/redhat)
+- [WSO2](vendor-specific/wso2)
+
