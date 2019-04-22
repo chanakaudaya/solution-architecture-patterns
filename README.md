@@ -24,7 +24,6 @@ This repository contains solutions architecture patterns which can be reused to 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
-- [Apigee](vendor-specific/apigee)
 - [AWS](vendor-specific/aws)
 - [Azure](vendor-specific/azure)
 - [GCP](vendor-specific/gcp)
