@@ -21,6 +21,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Hybrid API Management pattern
 [Hybrid API Management Pattern](Hybrid-API-Management-Pattern.md)
 
+- Enterprise CICD pattern
+[Enterprise CICD Pattern](Enterprise-CICD-Pattern.md)
+
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
