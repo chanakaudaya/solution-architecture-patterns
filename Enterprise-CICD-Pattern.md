@@ -34,7 +34,17 @@ Designing a continous integration continous deployment process for an enterprise
 
 A properly implemented CICD process should capture any of the above development activities as a system change and execute the entire CICD pipeline in such a scenario. The below figure depicts a process which can be used to implement a CICD process within your enterprise.
 
-![Enterprise-CICD-Pattern](Enterprise-CI_CD-Pattern.png)
+![Enterprise-CICD-Pattern](Enterprise-CICD-Pattern.png)
 
-As depicted in the above diagram, the sequence of events occurs when there is a development activity is mentioned below.
+As depicted in the above diagram, the sequence of events occurs when there is a development activity happens is mentioned below.
 
+1. The developers use an IDE or a code/configuration editor to make the change to the source code or a configuration file. It is advisable to use a configuration change to apply any change in the binary (e.g. patch, update or upgrade). Users can keep a configuration file with binary timestamp. When there is a new binary, modifying this timestamp will trigger the process.
+2. The change in the source repository triggers a process in the CI server and it builds the developed artefacts. These artefacts are deployed into a artefact repository like nexus. 
+3. CI server will trigger another process to run the configuration management tool and create a runtime with environment specific parameters and artefacts blended into the binariesalong with the configurations. This runtime is then packaged into a docker image.
+- 3b). This docker image is deployed into one of the environments (dev, uat, staging, etc.)
+4. CI server will deploy the test scripts to the server which is running the test client and trigger a test run.
+5. Test client will execute the tests against the environment which has the latest runtime artefacts deployed in step 3b.
+6. Once the testing is passed, CI server will trigger the config management tool and build the docker image with relevant environment specific configurations and artefacts for the following environment.
+- 6b). Deploy the docker image to the next environment
+
+The above mentioned process can be extended and implemented to support various kinds of software development within the enterprise. Based on the type of software, you may need to modify some components in this architecture. 
