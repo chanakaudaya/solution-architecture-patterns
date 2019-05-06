@@ -13,7 +13,7 @@ With the introduction of more and more cloud based applications, user management
 ## Architecture
 Using a centralized Identity Provider (IdP) is the solution to address the above challenges and come up with a user-friendly, scalable experience to identity admins as well as users. 
 
-![Cloud-Application-Security-Pattern](Cloud-application-security-pattern.png)
+![Cloud-Application-Security-Pattern](Cloud-Application-Aecurity-Pattern.png)
 
 As depicted in the above figure, cloud applications are configured within the WSO2 Identity Server (or any IdP) as service providers. Based on the authentication mechanism supported by the relevant application (e.g. SAML2, OIDC, WS-Federation), WSO2 IS can be configured. In the meantime, WSO2 IS needs to be configured as an Identity Provider within the relevant cloud application side. Once these settings are done, when a user tries to log into the respective cloud application, it will be redirected to the WSO2 IS authentication endpoint. Now users can provide the credentials which are stored within the enterprise user store (AD, LDAP, JDBC) which is connected with the WSO2 IS. 
 
