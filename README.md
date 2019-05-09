@@ -27,6 +27,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Anti Corruption Layer pattern
 [Anti Corruption Layer Pattern](Anti-Corruption-Layer-Pattern.md)
 
+- Istio Service Mesh pattern
+[Istio Service Mesh Pattern](Istio-Service-Mesh-Pattern.md)
+
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
