@@ -41,7 +41,24 @@ In addition to the data plane, there are 4 main control plane components depicte
 Once the Istio SM is up and running with the above mentioned components, let's see how the communication between different components happen. There are mainly 3 scenarios.
 
 ### A message going from testservice to helloworld service
+Let's consider a scenario where testservice needs to communicate to helloworld service. Given that both services are exposed as kubernetes services, they can talk to each other using service name as host name. The endpoint URL which testservice calls within it would be
+
+- http://helloworldservice:9095/
+
+When the request is made from testservice, it will first go through the envoy proxy within its pod and then connect to envoy proxy within the helloworld service and then it will be forwarded to the helloworld service. When the two envoy proxies are communicated with each other over the network, proxy on the testservice pod will push some attributes to the mixer for runtime policy checks. If those policy checks are successful only, the request will be sent to the envoy proxy on the helloworld service side. 
 
 ### A message coming from external client to helloworld service (ingress traffic)
+The other scenario is the most common case where an external application which resides outside the service mesh wanted to communicate with a microservice. This type of traffic is called as "ingress". In kubernetes, it uses an ingress controller to accept all the ingress traffic towards a kubernetes cluster. Similarly, in istio, it has extended the ingress controller functionality to its own concepts called a "gateway" and a "virtual service". When istio is started, it starts up a set of pods called "ingress-gateway" which can accept traffic coming from external clients. These ingress-gateway pods can be configured using a "gateway" configuration which specifies the protocol and the port which is exposed to external clients. Then this gateway needs to be configured to route the traffic to respective services within the service mesh using a "virtual service" where you can define context paths and the destination URLs for routing ingress traffic. 
+
+If an external client wants to connect to helloworld service, it can send the request to following URL
+
+- http://<loadbalancer-ip|minikube-ip>:80/helloworld
+
+This request will be accepted by the envoy proxy within the ingress-gateway pod and then forwarded into the helloworld kubernetes service. Within the helloworld service pod, it will first received by the envoy proxy and then forwarded to microservice. 
 
 ### A message going out from a microservice to an external service (egress traffic)
+If a microservice within the service mesh wanted to send a message to a service which lives outside the service mesh, then it can choose 2 options.
+1) Use an egress gateway and send the request through that
+In this scenario, request will be intercepted by an envoy proxy runnnig within the egress gateway. It is similar to the way we have configured the ingress gateway with gateway and virtual service. 
+2) Call the backend URL directly from the microservice
+In this, requests will be directly going from microservice via the envoy proxy within the same pod to external URLs. 
