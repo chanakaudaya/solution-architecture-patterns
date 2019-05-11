@@ -31,7 +31,14 @@ Namespaces are used to categorize different components which are related within 
 
 ![Kubernetes Deployment Pattern](Kubernetes-Deployment-Pattern.png)
 
-As depicted in the above figure, individual work loads or applications can run within a pod. Pod can contain the (micro)service, a support service (e.g. database), side car proxy (e.g. envoy) and other containers based on the requirement. A single pod cannot cannot offer services to a scaling client requirements and grouping multiple pods into a service is the correct approach to take when deploying in kubernetes. These services can expose the functionality of pods to external client through an ingress controller. When designing these services, categorizing them based on the functionality into namespaces is recommended. Once these namespaces are defined, the cluster wide resource allocations can be easily done. As an example, if a given set of services require more resources than the other services, you can enforce resource allocations at namespace level. 
+As depicted in the above figure, 
+
+- Individual work loads or applications can run within a pod as one or more containers. 
+- Pod can contain the (micro)service, a support service (e.g. database), side car proxy (e.g. envoy) and other containers based on the requirement. 
+- A single pod cannot cannot offer services to a scaling client requirements and grouping multiple pods into a service is the correct approach to take when deploying in kubernetes. 
+- These services can expose the functionality of pods to external client through an ingress controller. 
+- When designing these services, categorizing them based on the functionality into namespaces is recommended. 
+- Once these namespaces are defined, the cluster wide resource allocations can be easily done. As an example, if a given set of services require more resources than the other services, you can enforce resource allocations at namespace level. 
 
 ## Under the hood
 Kubernetes runs on top of an infrastructure layer. This can be any of the physical, virtual or cloud based resources. To set up a kubernetes cluster on a given infrastructure, you have to setup the relevant kubernetes components. 
