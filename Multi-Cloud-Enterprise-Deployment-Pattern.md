@@ -16,6 +16,27 @@ Instead of running all your business functionality in a single cloud or on-premi
 
 - Can provide better performance to consumers - Your applications can run on multiple clouds and expose the functionality through cloud gateways which are closed to the consumers in relevant cloud deployments based on locations.
 
+## Architecture
+Maintaining a multi cloud deployment is not a trivial task. You need to architect the deployment such that it is maintainable. Otherwise you will lose the purpose of setting up the multi cloud stretegy in the first place. Given below is a high level solutions architecture on how you can deploy your applications within a multi cloud environment.
+
+![Multi-Cloud-Enterprise-Deployment-Pattern](Multi-Cloud-Enterprise-Deployment-Pattern.png)
+
+As depicted in the above figure, it is best to have a master deployment which acts as the leader of the overall deployment. This master deployment can be hosted on-premise or in a cloud infrastructure. In this master deployment, you should have the components like
+
+- Management components which are used to add/modify artefacts to runtimes
+- Analytics and monitoring components which are capable of monitoring across multiple clouds
+- Master datasources which acts as master in a master/slave or master/master (multi-master) deployment
+- Runtime components which serves the traffic from consumers
+
+In addition to this master deployment, there can be multiple of worker deployments which contains
+
+- Runtime components which served the traffic from customers
+- Master/Slave data sources which contains runtime and metadata which are required by the applications
+
+The above architecture explains at a high level which type of components can run on which parts of the deployment. Let's understand this better with a reference architecture where WSO2 API Manager is deployed in a multi cloud deployment architecture. 
+
+
+
 ## Usage Patterns
 
 ## Conclusion
