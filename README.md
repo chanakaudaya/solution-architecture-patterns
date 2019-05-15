@@ -33,6 +33,10 @@ This repository contains solutions architecture patterns which can be reused to 
 - Micro architecture pattern
 [Micro Architecture Pattern](Micro-Architecture-Pattern.md)
 
+- Multi Cloud Enterprise Deployment pattern (New)
+[Multi Cloud Enterprise Deployment Pattern](Multi-Cloud-Enterprise-Deployment-Pattern.md)
+
+
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
