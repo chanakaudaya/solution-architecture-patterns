@@ -35,8 +35,26 @@ In addition to this master deployment, there can be multiple of worker deploymen
 
 The above architecture explains at a high level which type of components can run on which parts of the deployment. Let's understand this better with a reference architecture where WSO2 API Manager is deployed in a multi cloud deployment architecture. 
 
+![WSO2 API Manager Multi Cloud Deployment](vendor-specific/wso2/WSO2-APIM-Multi-Cloud-Deployment-Pattern.png)
 
+As depicted in the above figure, management components of the WSO2 API Manager are deployed in the master deployment. This can be a deployment on an on-premise DC, private cloud or a public (shared) cloud. The components in the master deployment are
+
+- API Publisher
+- API Store
+- API Analytics
+- API Key Manager
+- API Gateway
+
+Additionally, you can have worker deployments across different cloud environments which contains the APIM Gateway component. 
 
 ## Usage Patterns
+Multi cloud deployment architecture can be used for different use cases. Here are some of the usage patterns.
+
+- Run production on master and pre-production on worker deployments
+- Run production on both master and worker deployments for load balancing, high availability and better performance
+- Run bursts in worker clouds while running main production load in master cloud
+- Run DR site on worker cloud while running production in master
+- Run workloads across clouds based on the load and the cheapest pricing option (cloud arbitrage)
 
 ## Conclusion
+Multi-cloud strategy is something every enterprise is looking into because of the advantages it brings around the availability, pricing and vendor-locking.
