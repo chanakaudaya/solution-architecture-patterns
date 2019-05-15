@@ -56,5 +56,13 @@ Multi cloud deployment architecture can be used for different use cases. Here ar
 - Run DR site on worker cloud while running production in master
 - Run workloads across clouds based on the load and the cheapest pricing option (cloud arbitrage)
 
+## Challenges
+While there are many advantages in the multi cloud strategy, there are challenges which needs to be properly managed. Here are some disadvantages
+
+- Managing deployment across multiple clouds require expertise on respective clouds which is costly than using a single infrastructure
+- Performance will get impacted when the worker deployments needs to contact with master deployment
+- Increased security risk with a widen attack surface 
+
+
 ## Conclusion
-Multi-cloud strategy is something every enterprise is looking into because of the advantages it brings around the availability, pricing and vendor-locking.
+Multi-cloud strategy is something every enterprise is looking into because of the advantages it brings around the availability, pricing and freedom from vendor-locking. In the same time, it is not coming without it's own challenges. With the multi cloud strategies becoming more main stream, these challenges will be addressed through proper solutions.
