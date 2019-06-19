@@ -15,6 +15,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Enterprise CICD pattern
 [Enterprise CICD Pattern](Enterprise-CICD-Pattern.md)
 
+- Event Driven Architecture Kafka Pattern (New)
+[Event Driven Architecture Kafka Pattern](Event-Driven-Architecture-Kafka-Pattern.md)
+
 - Hybrid API Management pattern
 [Hybrid API Management Pattern](Hybrid-API-Management-Pattern.md)
 
