@@ -9,6 +9,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Anti Corruption Layer pattern
 [Anti Corruption Layer Pattern](Anti-Corruption-Layer-Pattern.md)
 
+- Centralized Identity and Access Management Pattern (New)
+[Centralized Identity and Access Management Pattern](Centralized-Identity-Access-Management-Pattern.md)
+
 - Decentralized Enterprise Architecture pattern
 [Decentralized Enterprise Architecture Pattern](Decentralized-Enterpise-Architecture-Pattern.md)
 
