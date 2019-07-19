@@ -29,12 +29,12 @@ The day-to-day IT operations belongs to 3 types of workloads. Those are
 
 Applications contains the business logic of a give service and the runtime defines the technology stack which is used to develop that application. Based on the application domain, a developer can select the best runtime (polyglot programming). Once the application and the runtime is fixed into an artefact as a VM, container image or binary, these needs to be run on top of a computing infrastrutre which is abstracted away by an operating system. 
 
-
+![Enterprise Application Workload](Enterprise-Application-Workload.png)
 Figure 1: Enterprise application workload seggregation
 
 As depicted in the above figure, understanding an enterprise application in the above mentioned 3 aspects allows us to define the processes to manage and maintain each and every aspect independently. That is exactly what Pivotal Cloud Foundry has done with their architecture. They have built a platform with frameworks which can help developers to utilize and automate their development at each layer so that application development becomes a one end-to-end process with well defined set of connected operations. As an example, developer can develop their application with a seletec technology and push that to the PCF platform and from that point onwards, PCF will take care of the rest of the testing, deployment and monitoring of the application. 
 
-
+![Pivotal Cloud Foundry High level architecture](Pivotal-Cloud-Foundry-High-Level-Architecture.png)
 Figure 2: Pivotal Cloud Foundry High level architecture
 
 At a very high level (33,000 feet), PCF contains the following 3 main components.
@@ -46,7 +46,7 @@ At a very high level (33,000 feet), PCF contains the following 3 main components
 
 Let’s take a bit deeper look into the Pivotal Cloud Foundry. 
 
-
+![Pivotal Cloud Foundry - detailed look](pivotal-cloud-foundry-architecture-detailed.png)
 Figure 3: Pivotal Cloud Foundry - detailed look (Source: https://www.slideshare.net/Pivotal/t3-pivotal-cloud-foundry-a-technical-overview)
 
 As depicted in the above figure 3, the PCF platform can be divided into 3 main functional components. 
@@ -67,7 +67,7 @@ Cloud Foundry(CF) is an open source project which is trying to build a vendor ne
 
 Pivotal has been able to add a value chain on top of the standard CF framework with leading open source software technologies. Some of them are developed and contributed by Pivotal and others are independent vendors. The below figure highlights the difference between the standard CF and PCF. 
 
-
+![PCF vs CF](pcf-commercialization.png)
 Figure 4: PCF vs CF (source: https://docs.pivotal.io/pivotalcf/2-6/concepts/overview.html)
 As depicted in the above figure 4, Pivotal has added many additional components which becomes really handy when implementing enterprise level software. The services offerred through pivotal as well as through the partner network allows application developers to make their software enterprise grade with caching, monitoring, security. Additionally, pivotal also provides documentation, training, consultancy, certification to the users who are willing to utlize the PCF platform. 
 
