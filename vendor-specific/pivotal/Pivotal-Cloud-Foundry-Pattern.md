@@ -29,8 +29,10 @@ The day-to-day IT operations belongs to 3 types of workloads. Those are
 
 Applications contains the business logic of a give service and the runtime defines the technology stack which is used to develop that application. Based on the application domain, a developer can select the best runtime (polyglot programming). Once the application and the runtime is fixed into an artefact as a VM, container image or binary, these needs to be run on top of a computing infrastrutre which is abstracted away by an operating system. 
 
-![Enterprise Application Workload](Enterprise-Application-Workload.png)
+![Enterprise Application Workload](Enterprise-Application-Workload.png) 
+
 Figure 1: Enterprise application workload seggregation
+
 
 As depicted in the above figure, understanding an enterprise application in the above mentioned 3 aspects allows us to define the processes to manage and maintain each and every aspect independently. That is exactly what Pivotal Cloud Foundry has done with their architecture. They have built a platform with frameworks which can help developers to utilize and automate their development at each layer so that application development becomes a one end-to-end process with well defined set of connected operations. As an example, developer can develop their application with a seletec technology and push that to the PCF platform and from that point onwards, PCF will take care of the rest of the testing, deployment and monitoring of the application. 
 
@@ -69,6 +71,7 @@ Pivotal has been able to add a value chain on top of the standard CF framework w
 
 ![PCF vs CF](pcf-commercialization.png)
 Figure 4: PCF vs CF (source: https://docs.pivotal.io/pivotalcf/2-6/concepts/overview.html)
+
 As depicted in the above figure 4, Pivotal has added many additional components which becomes really handy when implementing enterprise level software. The services offerred through pivotal as well as through the partner network allows application developers to make their software enterprise grade with caching, monitoring, security. Additionally, pivotal also provides documentation, training, consultancy, certification to the users who are willing to utlize the PCF platform. 
 
 At the end of the day, what pivotal is trying to build is an efficient software delivery pipeline which can be deployed on-premise or cloud which increased the agility, quality and the experience of the developers as well as consumers. There was an analogy somewhere in the internet which compared kubernetes with PCF.
