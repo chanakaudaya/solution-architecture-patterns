@@ -8,6 +8,13 @@ This directory contains solution architecture patterns which are built using WSO
 - [Security Federation Pattern](Security-Federation-Pattern.md)
 
 ### API Management (WSO2 API Manager)
+#### API Microgateway deployment patterns
+- [Decentralized API Gateway pattern](Microgateway-Pattern1-Decentralized-Gateway.md)
+- [Locked-Down/Offline API Gateway pattern](Microgateway-Pattern2-Locked-Down-Gateway.md)
+- [Seasonal API Gateway pattern](Microgateway-Pattern3-Seasonal-Gateway.md)
+- [Multi data center API Gateway pattern](Microgateway-Pattern4-Multi-Data-Center-Gateway.md)
+- [Service Mesh sidecar API Gateway pattern](Microgateway-Pattern5-Service-Mesh-Sidecar-Gateway.md)
+- [Hybrid API Gateway pattern](Microgateway-Pattern6-Hybrid-API-Gateway.md)
 
 ### Application Integration (WSO2 Enterprise Integrator)
 
