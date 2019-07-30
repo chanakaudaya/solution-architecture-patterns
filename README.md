@@ -18,6 +18,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Enterprise CICD pattern
 [Enterprise CICD Pattern](Enterprise-CICD-Pattern.md)
 
+- Enterprise Software Stack
+[Enterprise Software Stack](Enterprise-Software-Stack.md)
+
 - Event Driven Architecture Kafka Pattern (New)
 [Event Driven Architecture Kafka Pattern](Event-Driven-Architecture-Kafka-Pattern.md)
 
