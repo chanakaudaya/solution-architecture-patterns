@@ -30,6 +30,9 @@ Let's assume an external user wants to access microservice A. User will present 
 ### How to manage policies and data
 One of the key advantages of this approach is that each and every microservice can have it's own set of policies and data which is local to that microservice. If needed, this data and policies can be shared across multiple OPA agents. If a user needs to modify a security policy related to a microservice, he does not need to modify global components like LB/MGW/IC. Instead, it can use the REST APIs which available in the OPA to manage and control the policies and data. 
 
+### Using OPA as a library with go microservices
+In addition to running as a separate container alongside the microservice, OPA can be used as a library if you are implementing microservice in go programming language. This approach will slightly modify the above architecture by moving the OPA agent within the microservice container itself as a runtime component.
+
 ## Future
 With the increasing adoption of MSA, a simple, distributed security architecture is evloving. OPA is one such implementation where is uses the distributed, policy based security approach for microservices which blends nicely with existing tools like kubernetes and istio. Going forward, this sort of implementations can become the norm and the de-facto standard for microservices security. This is just the beginning!
 
