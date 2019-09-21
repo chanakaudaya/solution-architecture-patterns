@@ -42,6 +42,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Micro architecture pattern
 [Micro Architecture Pattern](Micro-Architecture-Pattern.md)
 
+- Microservices Security Pattern - Policy based (New)
+[Microservices Security Pattern - Policy based](Microservices-Security-Pattern-Policy-Based.md)
+
 - Multi Cloud Enterprise Deployment pattern (New)
 [Multi Cloud Enterprise Deployment Pattern](Multi-Cloud-Enterprise-Deployment-Pattern.md)
 
