@@ -9,6 +9,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Anti Corruption Layer pattern
 [Anti Corruption Layer Pattern](vendor-neutral/Anti-Corruption-Layer-Pattern.md)
 
+- Ballerina sidecar pattern
+[Ballerina sidecar pattern](vendor-neutral/Ballerina-sidecar-pattern-microservices.md)
+
 - Centralized Identity and Access Management Pattern (New)
 [Centralized Identity and Access Management Pattern](vendor-neutral/Centralized-Identity-Access-Management-Pattern.md)
 
