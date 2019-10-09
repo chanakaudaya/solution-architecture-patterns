@@ -8,6 +8,10 @@ This directory contains solution architecture patterns which are built using WSO
 - [Security Federation Pattern](Security-Federation-Pattern.md)
 
 ### API Management (WSO2 API Manager)
+
+#### API Manager Extensions
+- [API Manager 3rd party key manager integration pattern](API-manager-3rd-party-KM-integration.md)
+
 #### API Microgateway deployment patterns
 - [Decentralized API Gateway pattern](Microgateway-Pattern1-Decentralized-Gateway.md)
 - [Locked-Down/Offline API Gateway pattern](Microgateway-Pattern2-Locked-Down-Gateway.md)
