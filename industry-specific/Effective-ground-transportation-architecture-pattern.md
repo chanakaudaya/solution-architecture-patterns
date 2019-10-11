@@ -2,7 +2,8 @@
 
 Transportation has been one of the most important activities of human existence. It helped people to spread across the globe, build new communities, explore beautiful places and so on. But every advancement hits a breakeven point where it slowly deviates away from its sole purpose or the advantage it brings. In the world of transportation, it is the “congestion” which causes the sole purpose to breakeven. Across the globe, wherever there is a considerable advancement in transportation, people are experiencing “congestion” or “traffic jam”. It does not matter whether you own maruti, toyota, audi, bmw or lamborghini. It is the same hectic feeling when we hits within a traffic jam. It is not the car manufacturers who are responsible for this congestion. It is the people and their behavior along with inefficient traffic handling systems.
 
-![Traffic Congestions](http://www.getgometro.com/causes-of-traffic-congestion-and-it-can-be-avoided/)
+![Traffic Congestions](ground-transportation-figure-1.jpeg)
+
 Source: http://www.getgometro.com/causes-of-traffic-congestion-and-it-can-be-avoided/
 
 Above figure showcases a typical (scary) traffic jam and by only looking at that figure, you will feel the pain. Vehicle manufacturers are trying to solve this problem through self-driving cars with more and more technical advancements. Even though it is a good move, it will not be the silver bullet for this complex problem. Companies like Uber are building systems which are more efficient in terms of vehicle utilization and professional drivers so that it will almost become another public transportation and people don’t want to bring their own vehicles. All these moves are really great and helping the congestion problem in different forms. Within this article, we are going to discuss about how to build an effective technology platform to improve the experience of people by providing necessary information to drivers, commuters, passengers and even vehicles to act in a manner which causes the least traffic congestion. Due to the complexity of the problem, the approaches describe here may not apply at the same efficiency everywhere. But this will provide a firm basis to build effective transportation systems.
@@ -15,6 +16,8 @@ One key thing to note here is that we are trying to build a reference architectu
 - Vehicles (Bus, Train, Car, Self driving Car)
 
 On top of above 3 categories, we have supportive services like roadside maintenance and taxi companies like Uber which helps the system to run with better efficiency. These main stakeholders can be depicted using the below figure.
+
+![Main stakeholders of ground transportation ecosystem](ground-transportation-stakeholders.png)
 
 Figure 1: Main stakeholders of ground transportation ecosystem
 
@@ -68,6 +71,8 @@ The next level of technical requirements comes when the processed data is shared
 ## Reference architecture for a ground transportation system
 With the identification of core technical requirements and capabilities for an efficient ground transportation system, it’s time to come up with a reference architecture for the solution.
 
+![Ground transportation system reference architecture](ground-transportation-reference-architecture.png)
+
 Figure 2: Ground transportation system reference architecture
 As depicted in the above figure 2, sensors provides information about the current state of the system. This includes data about vehicle flow, commuter capacities at stations, current load of vehicles (in each compartment), vehicle locations, air quality indexes. These events can be processed in 2 places.
 
@@ -105,12 +110,16 @@ WSO2 offers 4 main products covering all the requirements mentioned in previous 
 - WSO2 API Manager — exposing services through managed APIs with security, throttling
 - WSO2 Identity Server — single-sign-on and federated authentication capabilities
 
+![Reference architecture realized with WSO2 technology](ground-transportation-reference-implementation-wso2.png)
+
 Figure 3: Reference architecture realized with WSO2 technology
 
 As depicted in the above figure 3, the required core capabilities can be realized with WSO2 product suite. One thing which is not mentioned in the above figure is the edge analytics capabilities of WSO2 Stream Processor where it can be deployed at the edge towards sensor aggregation points and filter events before sending over to the central processing layer. Also in addition to the email and queueing protocols, WSO2 SP can communicate results over other mechanisms like Kafka, HTTP, RabbitMQ as well. If someone wants to use other technologies for message queueing layer like Amazon SQS, WSO2 provides capabilities to integrate with that through connectors. In the above architecture, most critical component is the stream processing part where it needs to process millions of events within a given second. WSO2 SP has a scalable architecture starting from 2 node cluster which can handle 10K transactions per second on average.
 
 ## Detailed technical reference architecture
 When these different component connect with each other, they use different protocols, messaging formats and interfaces. Let’s take a look at which technologies we can use to realize this reference architecture.
+
+![Ground transportation technical reference model](ground-transportation-technical-architecture.png)
 
 Figure 4: Ground transportation technical reference model
 The above figure depicts the relevant protocols, standards and messaging formats which are used to realize the reference architecture. Enterprise architects who needs to implement this type of a reference model can take their vendor selection decisions by using the technologies mentioned above. That makes this model independent from any one particular vendor. If someone wanted to build this system from scratch without using any existing products, they can do so by fullfilling the above mentioned technological requirements.
