@@ -2,7 +2,7 @@
 
 Transportation has been one of the most important activities of human existence. It helped people to spread across the globe, build new communities, explore beautiful places and so on. But every advancement hits a breakeven point where it slowly deviates away from its sole purpose or the advantage it brings. In the world of transportation, it is the “congestion” which causes the sole purpose to breakeven. Across the globe, wherever there is a considerable advancement in transportation, people are experiencing “congestion” or “traffic jam”. It does not matter whether you own maruti, toyota, audi, bmw or lamborghini. It is the same hectic feeling when we hits within a traffic jam. It is not the car manufacturers who are responsible for this congestion. It is the people and their behavior along with inefficient traffic handling systems.
 
-![Traffic Congestions](ground-transportation-figure-1.jpeg)
+![Traffic Congestions](images/ground-transportation-figure-1.jpeg)
 
 Source: http://www.getgometro.com/causes-of-traffic-congestion-and-it-can-be-avoided/
 
@@ -17,7 +17,7 @@ One key thing to note here is that we are trying to build a reference architectu
 
 On top of above 3 categories, we have supportive services like roadside maintenance and taxi companies like Uber which helps the system to run with better efficiency. These main stakeholders can be depicted using the below figure.
 
-![Main stakeholders of ground transportation ecosystem](ground-transportation-stakeholders.png)
+![Main stakeholders of ground transportation ecosystem](images/ground-transportation-stakeholders.png)
 
 Figure 1: Main stakeholders of ground transportation ecosystem
 
@@ -71,7 +71,7 @@ The next level of technical requirements comes when the processed data is shared
 ## Reference architecture for a ground transportation system
 With the identification of core technical requirements and capabilities for an efficient ground transportation system, it’s time to come up with a reference architecture for the solution.
 
-![Ground transportation system reference architecture](ground-transportation-reference-architecture.png)
+![Ground transportation system reference architecture](images/ground-transportation-reference-architecture.png)
 
 Figure 2: Ground transportation system reference architecture
 As depicted in the above figure 2, sensors provides information about the current state of the system. This includes data about vehicle flow, commuter capacities at stations, current load of vehicles (in each compartment), vehicle locations, air quality indexes. These events can be processed in 2 places.
@@ -110,7 +110,7 @@ WSO2 offers 4 main products covering all the requirements mentioned in previous 
 - WSO2 API Manager — exposing services through managed APIs with security, throttling
 - WSO2 Identity Server — single-sign-on and federated authentication capabilities
 
-![Reference architecture realized with WSO2 technology](ground-transportation-reference-implementation-wso2.png)
+![Reference architecture realized with WSO2 technology](images/ground-transportation-reference-implementation-wso2.png)
 
 Figure 3: Reference architecture realized with WSO2 technology
 
@@ -119,7 +119,7 @@ As depicted in the above figure 3, the required core capabilities can be realize
 ## Detailed technical reference architecture
 When these different component connect with each other, they use different protocols, messaging formats and interfaces. Let’s take a look at which technologies we can use to realize this reference architecture.
 
-![Ground transportation technical reference model](ground-transportation-technical-architecture.png)
+![Ground transportation technical reference model](images/ground-transportation-technical-architecture.png)
 
 Figure 4: Ground transportation technical reference model
 The above figure depicts the relevant protocols, standards and messaging formats which are used to realize the reference architecture. Enterprise architects who needs to implement this type of a reference model can take their vendor selection decisions by using the technologies mentioned above. That makes this model independent from any one particular vendor. If someone wanted to build this system from scratch without using any existing products, they can do so by fullfilling the above mentioned technological requirements.
