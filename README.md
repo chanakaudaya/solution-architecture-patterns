@@ -51,6 +51,12 @@ This repository contains solutions architecture patterns which can be reused to 
 - Multi Cloud Enterprise Deployment pattern (New)
 [Multi Cloud Enterprise Deployment Pattern](vendor-neutral/Multi-Cloud-Enterprise-Deployment-Pattern.md)
 
+## Industry specific architecture patterns
+These patterns are specific to a business domain or an industry. Most of these patterns can be considered as reference archtiectures.
+
+- [Telecommunication Reference Architecture](industry-specific/Telecommunication-reference-architecture-pattern.md)
+- [Transportation Reference Architecture](industry-specific/Effective-ground-transportation-architecture-pattern.md)
+
 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
