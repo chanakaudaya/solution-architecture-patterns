@@ -54,8 +54,11 @@ This repository contains solutions architecture patterns which can be reused to 
 ## Industry specific architecture patterns
 These patterns are specific to a business domain or an industry. Most of these patterns can be considered as reference archtiectures.
 
-- [Telecommunication Reference Architecture](industry-specific/Telecommunication-reference-architecture-pattern.md)
-- [Transportation Reference Architecture](industry-specific/Effective-ground-transportation-architecture-pattern.md)
+- Telecommunication Reference Architecture
+[Telecommunication Reference Architecture](industry-specific/Telecommunication-reference-architecture-pattern.md)
+
+- Transportation Reference Architecture
+[Transportation Reference Architecture](industry-specific/Effective-ground-transportation-architecture-pattern.md)
 
 
 ## Vendor specific architecture patterns
