@@ -9,7 +9,7 @@ This repository contains solutions architecture patterns which can be reused to 
 - Anti Corruption Layer pattern
 [Anti Corruption Layer Pattern](vendor-neutral/Anti-Corruption-Layer-Pattern.md)
 
-- Ballerina sidecar pattern
+- Ballerina sidecar pattern (New)
 [Ballerina sidecar pattern](vendor-neutral/Ballerina-sidecar-pattern-microservices.md)
 
 - Centralized Identity and Access Management Pattern (New)
@@ -45,19 +45,22 @@ This repository contains solutions architecture patterns which can be reused to 
 - Micro architecture pattern
 [Micro Architecture Pattern](vendor-neutral/Micro-Architecture-Pattern.md)
 
+- Microservices with NATS messaging (New)
+[Microservices with NATS messaging](vendor-neutral/Microservices-with-NATS-messaging.md)
+
 - Microservices Security Pattern - Policy based (New)
 [Microservices Security Pattern - Policy based](vendor-neutral/Microservices-Security-Pattern-Policy-Based.md)
 
-- Multi Cloud Enterprise Deployment pattern (New)
+- Multi Cloud Enterprise Deployment pattern
 [Multi Cloud Enterprise Deployment Pattern](vendor-neutral/Multi-Cloud-Enterprise-Deployment-Pattern.md)
 
 ## Industry specific architecture patterns
 These patterns are specific to a business domain or an industry. Most of these patterns can be considered as reference archtiectures.
 
-- Telecommunication Reference Architecture
+- Telecommunication Reference Architecture (New)
 [Telecommunication Reference Architecture](industry-specific/Telecommunication-reference-architecture-pattern.md)
 
-- Transportation Reference Architecture
+- Transportation Reference Architecture (New)
 [Transportation Reference Architecture](industry-specific/Effective-ground-transportation-architecture-pattern.md)
 
 
