@@ -26,14 +26,14 @@ NATS supports 4 main patterns for communicating messages across entities. Those 
 ### Subject-based messaging
 This pattern allows entities to share data using a “subject” and consumers can receive these messages (data) by listening in to the “subject” by using wildcards. As an example, if an entity sends a message with “time.us.east.atlanta” in the subject field, all the entities listening on the exact message or a wildcard subject that matches it can receive the message.
 
-![subject-based-messging](https://nats-io.github.io/docs/developer/concepts/subjects.html)
+![subject-based-messging](images/nats-subject-based-messaging.png)
 
 Source: https://nats-io.github.io/docs/developer/concepts/subjects.html
 
 ### Publish-Subscribe messaging
 This is the traditional pub-sub messaging model with topics where a publisher pushes a message to a topic where a set of subscribers subscribes to that topic and get the messages.
 
-![publish-subscribe-messging](https://nats-io.github.io/docs/developer/concepts/pubsub.html)
+![publish-subscribe-messging](images/nats-pub-sub.png)
 
 Source: https://nats-io.github.io/docs/developer/concepts/pubsub.html
 
@@ -41,7 +41,7 @@ Source: https://nats-io.github.io/docs/developer/concepts/pubsub.html
 This is a common pattern used in most of the web-based applications where users expecting an immediate response for a request. Though most people think that this needs to be implemented in a blocking manner where the requester needs to wait until it gets the response, in reality, most of the server implementations follow an asynchronous pattern.
 NATS supports this pattern with its core communication mechanism, publish and subscribe (asynchronous). A request is published on a given subject with a reply subject, and responders listen on that subject and send responses to the reply subject. Reply subjects are usually a subject called an _INBOX that will be directed back to the requestor dynamically, regardless of the location of either party.
 
-![request-reply-messaging](https://nats-io.github.io/docs/developer/concepts/reqreply.html)
+![request-reply-messaging](images/nats-request-reply.png)
 
 Source: https://nats-io.github.io/docs/developer/concepts/reqreply.html
 
@@ -49,7 +49,7 @@ Source: https://nats-io.github.io/docs/developer/concepts/reqreply.html
 Sometimes applications need load balancing across multiple applications or across multiple instances of the same application. Queue group is a perfect solution for such requirements where it load balances the messages across multiple subscribers who have subscribed to the same subject.
 To create a queue subscription, subscribers register a queue name. All subscribers with the same queue name form the queue group. This requires no configuration. As messages on the registered subject are published, one member of the group is chosen randomly to receive the message. Although queue groups have multiple subscribers, each message is consumed by only one. One of the great features of NATS is that queue groups are defined by the application and their queue subscribers, not on the server configuration.
 
-![queue-messaging](https://nats-io.github.io/docs/developer/concepts/queue.html)
+![queue-messaging](images/nats-queue-groups.png)
 
 Source: https://nats-io.github.io/docs/developer/concepts/queue.html
 
@@ -58,7 +58,7 @@ With a brief introduction to NATS, let’s move on to the microservices side of 
 ## Microservices and NATS
 Microservices Architecture (MSA) fundamentally increases the message load on the system when compared to a monolithic application or an SOA based application architecture. When you divide the functionality of a single monolith to a set of microservices, these microservices need to communicate with each other. The in-memory communications in the monolith are converted into over the wire communication. If we extend this trend into a large microservices project with 100s of microservices, the increase of the message load is so big. If we think about a situation where it receives millions of messages within an hour, all the microservices (which interacts) needs to handle a considerable load on each microservice. That is what exactly happens if we wire all the microservices in a mesh-like architecture where each microservice directly calling another microservice in a synchronous manner.
 
-![microservices-mesh-pattern](images/microservices-mesh-pattern.png)
+![microservices-mesh-pattern](images/microservices-mesh.png)
 
 Figure: Microservices mesh with a point to point connections
 
