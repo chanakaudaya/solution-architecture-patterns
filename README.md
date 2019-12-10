@@ -27,6 +27,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Event Driven Architecture Kafka Pattern (New)
 [Event Driven Architecture Kafka Pattern](vendor-neutral/Event-Driven-Architecture-Kafka-Pattern.md)
 
+- GraphQL enterprise architecture patterns (New)
+[GraphQL Pattern](vendor-neutral/GraphQL-Pattern.md)
+
 - Hybrid API Management pattern
 [Hybrid API Management Pattern](vendor-neutral/Hybrid-API-Management-Pattern.md)
 
