@@ -6,6 +6,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - API Security pattern
 [API Security Pattern](vendor-neutral/API-Security-Pattern.md)
 
+- API-led Connectivity pattern
+[API-led Connectivity pattern](vendor-neutral/API-led-Connectivity-Pattern.md)
+
 - Anti Corruption Layer pattern
 [Anti Corruption Layer Pattern](vendor-neutral/Anti-Corruption-Layer-Pattern.md)
 
