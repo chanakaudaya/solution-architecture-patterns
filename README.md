@@ -69,6 +69,9 @@ These patterns are specific to a business domain or an industry. Most of these p
 - Transportation Reference Architecture (New)
 [Transportation Reference Architecture](industry-specific/Effective-ground-transportation-architecture-pattern.md)
 
+- Digital Health Platform Open Source Architecture (New)
+[Digital Health Platform Open Source Architecture](industry-specific/Digital-Health-Platform-Open-Source-Architecture.md)
+
 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
