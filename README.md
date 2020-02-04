@@ -18,6 +18,9 @@ This repository contains solutions architecture patterns which can be reused to 
 - Centralized Identity and Access Management Pattern (New)
 [Centralized Identity and Access Management Pattern](vendor-neutral/Centralized-Identity-Access-Management-Pattern.md)
 
+- Cloud Migration with Strangler Pattern (New)
+[Cloud Migration with Strangler Pattern](vendor-neutral/Cloud-Migration-Strangler-Pattern.md)
+
 - Decentralized Enterprise Architecture pattern
 [Decentralized Enterprise Architecture Pattern](vendor-neutral/Decentralized-Enterpise-Architecture-Pattern.md)
 
