@@ -4,7 +4,7 @@ Amazon Web Services or AWS is the leading cloud services provider in the world. 
 ## Networking services in AWS
 According to the official AWS website, the networking services available in AWS can be categorized into 3 main areas depending on their usage. The below table (extracted from the official website) provides details about the services and their usage at a high level.
 
-![AWS Networking services](images/AWS-Networking-in-a-nutshell.png)
+![AWS Networking services](images/AWS-Networking-Services.png)
 
 Source: https://aws.amazon.com/products/networking/
 
@@ -17,7 +17,7 @@ The above table categorizes the networking services into
 ## Networking services in a nutshell
 AWS documentation has done a fantastic job of describing each and every service clearly. But there is a missing piece in the documentation which is that it does not have a single diagram that explains the overall architecture of these various services and how those services are interconnected. The below figure does just that.
 
-![AWS Networking services in a nutshell](images/Azure-Networking-in-a-Nutshell.png)
+![AWS Networking services in a nutshell](images/AWS-Networking-in-a-nutshell.png)
 
 Figure: AWS networking services in a nutshell
 
