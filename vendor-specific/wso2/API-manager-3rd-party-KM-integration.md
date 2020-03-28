@@ -10,7 +10,7 @@ If the requirement is just to share the same user base with the API platform, go
 ## Architecture
 WSO2 API Manager comes with a componentized architecture where each component can be deployed separately if required. Even within a single runtime, these components run with clear separation by communicating over well defined APIs. This API driven product design allows the product to be extended by using these interfaces. Using an external IdP as the key management component of the WSO2 API Manager is possible with this design. Let’s take a look at how this can be achieved.
 
-![WSO2 APIM 3rd party KM](WSO2APIM-3rdParty-Authorization-Server-Integration.png)
+![WSO2 APIM 3rd party KM](images/WSO2APIM-3rdParty-Authorization-Server-Integration.png)
 Figure 1: WSO2 API Manager 3rd party key manager integration
 
 The above figure depicts the standard integration of an external Identity Provider as the 3rd party key manager for WSO2 API Manager. There are 4 main components of API Manager is depicted here along with the users of those profiles.
@@ -47,7 +47,7 @@ In a typical workflow of API management, here is how this custom implementation 
 Note: In the above figure, it has connected the same user store (LDAP/AD/JDBC) to both WSO2 API Manager and the IdP. This will make the integration flowless since additional user-level information can be extracted for the users with this approach. If we don’t use the same user store, we can’t support scope validation and backend JWT with user claims. But this is optional and based on the grant type and the backend implementation, you can decide on whether to share the user store or not.
 A sequence diagram view of the above mentioned workflow (starting from login into API Store) is depicted in the below figure.
 
-![APIM 3rd party KM integration workflow](API%20Store%20integrate%20with%203rd%20party%20KM.png)
+![APIM 3rd party KM integration workflow](images/API-Store-integrate-with-3rd-party-KM.png)
 Figure 2: Sequence diagram view of component interaction
 
 ## Reference implementation

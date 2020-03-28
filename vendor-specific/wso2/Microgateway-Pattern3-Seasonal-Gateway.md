@@ -5,7 +5,7 @@ If you have already deployed WSO2 API Manager (all-in-one) in a centralized mann
 
 ### Architecture
 
-![Seasonal API Gateway pattern](Microgateway-Pattern3-Seasonal-Gateway.png)
+![Seasonal API Gateway pattern](images/Microgateway-Pattern3-Seasonal-Gateway.png)
 Figure 1: Seasonal API Gateway pattern
 
 With the API Microgatway, you can quickly set up a seasonal gateway with a selected set of APIs and scale them up and down as necessary without impacting the existing deployment. 

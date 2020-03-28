@@ -13,7 +13,7 @@ Out of the above 2 options, we are discussing the second option in this pattern.
 ## Architecture
 A typical enterprise software system consists of different types of applications like web, mobile and cloud based. Providing security to all these heterogenous systems requires a well designed Identity solution which is capable of understanding the protocols which are implemented by these systems. To enable federated authentication to these applications, this identity solution should understand the protocols supported by the outbound side as well. Here is the solutions architecture diagram of federated security pattern.
 
-![Security Federation Pattern](Security-Federation-Pattern.png)
+![Security Federation Pattern](images/Security-Federation-Pattern.png)
 
 As depicted in the above figure, the applications on the far left corner are configured to identify WSO2 Identity Server as the Identity Provider (IdP). Then WSO2 IS is configured to consider these applications as service providers so that when a user tries to access any of these applications, user will be redirected towards WSO2 IS for authentication purpose. At the WSO2 IS side, 3rd party IdPs are configured as Federated Identity Providers (IdP). If this 3rd party system is a legacy application or an application which is not supported OOTB or through the connector store, users can write a custom outbound authenticator. 
 
