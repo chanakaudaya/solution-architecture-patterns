@@ -13,7 +13,7 @@ When it comes to security within an enterprise software system, there are 3 main
 Let’s try to understand how these requirements are fulfilled in most of the existing enterprise applications with the help of the below figure 1.
 
 
-![Figure 1: Application security implementation in a traditional enterprise](Brownfield-enterprise-security.png)
+![Figure 1: Application security implementation in a traditional enterprise](images/Brownfield-enterprise-security.png)
 Figure 1: Application security implementation in a traditional enterprise
 
 The different types of applications used in an enterprise can be divided into 3 main categories.
@@ -31,7 +31,7 @@ The above mentioned applications are developed by different vendors and they hav
 
 Authentication and authorization capabilities are required by each and every application running in your enterprise. Instead of implementing these capabilities at each application, these capabilities can be delegated to a specialized component. There are many Identity and Access Management (IAM) solutions available in the market. Some of them are open source and some are proprietary. Some are cloud based while others are on-premise based. This IAM component will do the heavy lifting of authentication, authorization as well as user management while allowing applications to implement more modern types of security methodologies which will improve the overall user experience while providing improved protection to the applications. Let’s see how the above architecture can be improved with an IAM component.
 
-![Figure 2: Centralized security architecture for enterprise](Centralized-Identity-Access-Management.png)
+![Figure 2: Centralized security architecture for enterprise](images/Centralized-Identity-Access-Management.png)
 Figure 2: Centralized security architecture for enterprise
 
 The above figure 2 contains many changes to the figure 1. Let’s try to identify these changes and what those changes mean to the overall system architecture.

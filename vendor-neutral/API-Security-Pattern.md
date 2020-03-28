@@ -4,7 +4,7 @@
 
 APIs are the interface to external and internal users through which valuable business information is shared. Protecting these valuable information access is crucial in enterprise software design. 
 
-![API Security Pattern](API-Security-Pattern.png)
+![API Security Pattern](images/API-Security-Pattern.png)
 
 APIs provides you with the ability to compete in the digital marketplaces where brick and mortar stors are no longer dominating. The entire consumer and business landscape is becoming more and more digital savvy and it is essential for any enterprise regardless of their domain, to blend into this digital transformation. Companies from manufacturing, healthcare, automobile to consumer electronics are some of the examples which were not relying on digital business in the past but rapidly moving through digital journeys. 
 

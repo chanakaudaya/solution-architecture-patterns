@@ -29,7 +29,7 @@ A deployment is a configuration which can create a given set of kubernetes artef
 #### Namespace
 Namespaces are used to categorize different components which are related within kubernetes. As an example, different teams can utilize the same kubernetes cluster and run their own services by using their own namespaces without interfering with other teams.
 
-![Kubernetes Deployment Pattern](Kubernetes-Deployment-Pattern.png)
+![Kubernetes Deployment Pattern](images/Kubernetes-Deployment-Pattern.png)
 
 As depicted in the above figure, 
 

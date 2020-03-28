@@ -34,7 +34,7 @@ Designing a continous integration continous deployment process for an enterprise
 
 A properly implemented CICD process should capture any of the above development activities as a system change and execute the entire CICD pipeline in such a scenario. The below figure depicts a process which can be used to implement a CICD process within your enterprise.
 
-![Enterprise-CICD-Pattern](Enterprise-CICD-Pattern.png)
+![Enterprise-CICD-Pattern](images/Enterprise-CICD-Pattern.png)
 
 As depicted in the above diagram, the sequence of events occurs when there is a development activity happens is mentioned below.
 

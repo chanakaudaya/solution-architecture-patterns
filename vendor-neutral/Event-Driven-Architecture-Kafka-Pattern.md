@@ -5,7 +5,7 @@ Apache Kafka has evolved as the defacto standard for building reliable event bas
 
 ## Architecture
 Kafka architecture is a simple yet powerful architecture which blends well within most of the existing architectures. 
-![Event-Driven-Architecture-Kafka-Pattern](Event-Driven-Architecture-Kafka-Pattern.png)
+![Event-Driven-Architecture-Kafka-Pattern](images/Event-Driven-Architecture-Kafka-Pattern.png)
 
 Kafka can run on a cluster of nodes spanning across multiple machines, multiple data centers, mutiple regions. Kafka has the capability to expand across geographically distributed resources. Once Kafka cluster is set up, external applications and systems can interact with the cluster through 4 standard APIs. 
 

@@ -13,7 +13,7 @@ All these architectures can be categorized under the common umbrella of "microse
 
 ### Micro Architecture
 
-![Micro Architecture Pattern](Micro-Architecture-Pattern.png)
+![Micro Architecture Pattern](images/Micro-Architecture-Pattern.png)
 
 As depicted in the above figure, micro architecture is independent from any type of infrastructure or vendor or technology. It is an open architecture which can be implemented using the best suitable technology or vendor for specific enterprise. Let’s understand the micro-architecture a bit more in respect to the above figure.
 

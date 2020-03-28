@@ -15,7 +15,7 @@ Even though these systems are built in isolation, they can't operate in isolatio
 
 When one system needs to talk to another system and if these 2 systems are not compatible, you can use an intermediate layer which is capable of translating first systems communication to the protocol which is used by the second system and vice versa, this intermediate system is called as an Anti Corruption Layer since that layer helps to avoid the data corruption which would have happened otherwise. This is not a new concept and the traditionally, Enterprise Service Bus (ESB) has been used as this intermediate layer. 
 
-![Anti-Corruption-Layer-Pattern](Anti-Corruption-Layer-Pattern.png)
+![Anti-Corruption-Layer-Pattern](images/Anti-Corruption-Layer-Pattern.png)
 
 As depicted in the above figure, putting an intermediate anti corruption layer component only will not solve the modern enterprise requirements. Instead, various client applications require to access the capabilities of these heterogenous systems. API Management layer can help in exposing these internal complex systems to external clients through a standard based, managed interface. Sometimes, this same API management layer can act as the anti corruption layer. 
 

@@ -16,7 +16,7 @@ Even though the above mentioned centralized security architecture works fine wit
 ## Architecture
 The better approach to build a microservices architecture is to use containers, pods and service mesh so that you get the total control over the architecture. OPA is a component which you can easily bind in to this architecture by running it as a sidecar container along with the microservice. The below architecture diagram depicts a possible approach to implement a fully distributed policy based security for your microservices architecture.
 
-![Microservices-Security-OPA](Micoservices-Security-Pattern-Policy-Based-OPA.png)
+![Microservices-Security-OPA](images/Micoservices-Security-Pattern-Policy-Based-OPA.png)
 
 As depicted in the above figure, microservices A and B are deployed as respective services (kubernetes) which internally runs on a set of auto scalable pods (kubernetes). Each pod containes the following components running as separate containers. 
 

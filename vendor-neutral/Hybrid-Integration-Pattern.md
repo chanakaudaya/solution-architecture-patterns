@@ -10,7 +10,7 @@ Depending on the infrastructure a given software system is installed, we can div
 
 The integration platform we choose should be able to connect with both types of systems which are mentioned above. Such an integration platform is called as an hybrid integration platform (HIP). 
 
-![Hybrid-Integration-Pattern](Hybrid-Integration-Pattern.png)
+![Hybrid-Integration-Pattern](images/Hybrid-Integration-Pattern.png)
 
 
 As depicted in the above figure, hybrid integration platform should be capable of supporting functional requirements like

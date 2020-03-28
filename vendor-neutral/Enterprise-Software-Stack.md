@@ -24,7 +24,7 @@ Everything starts with the bits and bytes running on a set of electronic circuit
 The figure below showcases how each of these components are layered up.
 
 
-![Enterprise Software Stack](Enterprise-Software-Layered-Architecture.png)
+![Enterprise Software Stack](images/Enterprise-Software-Layered-Architecture.png)
 
 Figure 1: Enterprise software architecture stack
 

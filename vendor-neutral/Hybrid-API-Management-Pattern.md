@@ -24,7 +24,7 @@ The functional capabilities mentioned above can be run independently if the API 
 
 The APIM platforms which are implemented in a modularized nature can be deployed in a hybrid architecture as depicted in the below figure.
 
-![Hybrid-API-Management-Pattern](Hybrid-API-Management-Pattern.png)
+![Hybrid-API-Management-Pattern](images/Hybrid-API-Management-Pattern.png)
 
 Enterprises are more and more moving towards cloud based infrastructure and having a fully managed software solution is preferred over on-premise software due to the ease of management. But it is not possible to go with full cloud solutions which are offered as SaaS solutions due to various regulatory requirements. In such a scenario, enterprises can use this hybrid api management pattern. In this model, API management functional components are deployed in 2 different environments. 
 

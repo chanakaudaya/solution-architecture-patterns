@@ -23,7 +23,7 @@ Istio is a service mesh technology which supports both data plane and control pl
 ## Architecture
 Service Mesh architecture consists of side car proxies which are running by the side of each microservice. These proxies intercept all the requests coming into a microservice as well as going out of the same. 
 
-![Istio Service Mesh Pattern](Istio-Service-Mesh-Pattern.png)
+![Istio Service Mesh Pattern](images/Istio-Service-Mesh-Pattern.png)
 
 The above figure explains a lot of details in one picture. Some of the concepts used here are directly related to kubernetes. But you can use the same architecture with other supported platforms as well.
 

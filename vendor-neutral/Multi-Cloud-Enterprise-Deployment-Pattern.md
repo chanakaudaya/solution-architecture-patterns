@@ -19,7 +19,7 @@ Instead of running all your business functionality in a single cloud or on-premi
 ## Architecture
 Maintaining a multi cloud deployment is not a trivial task. You need to architect the deployment such that it is maintainable. Otherwise you will lose the purpose of setting up the multi cloud stretegy in the first place. Given below is a high level solutions architecture on how you can deploy your applications within a multi cloud environment.
 
-![Multi-Cloud-Enterprise-Deployment-Pattern](Multi-Cloud-Enterprise-Deployment-Pattern.png)
+![Multi-Cloud-Enterprise-Deployment-Pattern](images/Multi-Cloud-Enterprise-Deployment-Pattern.png)
 
 As depicted in the above figure, it is best to have a master deployment which acts as the leader of the overall deployment. This master deployment can be hosted on-premise or in a cloud infrastructure. In this master deployment, you should have the components like
 
