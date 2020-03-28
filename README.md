@@ -79,9 +79,9 @@ These patterns are specific to a business domain or an industry. Most of these p
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
-- [AWS](vendor-specific/aws)
-- [Azure](vendor-specific/azure)
-- [GCP](vendor-specific/gcp)
+- [Amazon Web Services (AWS)](vendor-specific/aws)
+- [Microsoft Azure](vendor-specific/azure)
+- [Google Cloud Platform (GCP)](vendor-specific/gcp)
 - [Mulesoft](vendor-specific/mulesoft)
 - [Pivotal](vendor-specific/pivotal)
 - [RedHat](vendor-specific/redhat)
