@@ -21,5 +21,6 @@ This directory contains solution architecture patterns which are built using WSO
 - [Hybrid API Gateway pattern](Microgateway-Pattern6-Hybrid-API-Gateway.md)
 
 ### Application Integration (WSO2 Enterprise Integrator)
+- [WSO2 EI7 Solution Patterns](WSO2-EI7-Solution-Patterns.md)
 
 ### Platform solutions
