@@ -24,3 +24,4 @@ This directory contains solution architecture patterns which are built using WSO
 - [WSO2 EI7 Solution Patterns](WSO2-EI7-Solution-patterns.md)
 
 ### Platform solutions
+- [Modern Brown-Field Enterprise With WSO2](Modern-Brown-Field-Enterprise-WSO2.md)
