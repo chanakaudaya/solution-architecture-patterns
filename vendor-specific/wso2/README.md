@@ -25,3 +25,5 @@ This directory contains solution architecture patterns which are built using WSO
 
 ### Platform solutions
 - [Modern Brown-Field Enterprise With WSO2](Modern-Brown-Field-Enterprise-WSO2.md)
+- [Legacy platform modernization with WSO2](Legacy-Platform-Modernization-with-WSO2.md)
+
