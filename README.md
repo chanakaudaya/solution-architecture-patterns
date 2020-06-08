@@ -90,3 +90,5 @@ These patterns are specific to a vendor and some of the terminology used in thes
 - [RedHat](vendor-specific/redhat)
 - [WSO2](vendor-specific/wso2)
 
+## Technology selection guides [NEW]
+- [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
