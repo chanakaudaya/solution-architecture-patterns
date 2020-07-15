@@ -32,6 +32,7 @@ Above mentioned stages are the most common denominator of the lifecycle stages d
 
 In most cases, some people played the role of multiple stakeholders mentioned above and in large corporations, we could find at least one from each category involved in the SOA projects. It was the responsibility of SOA governance to get all these stakeholders involved in the process of delivering quality software services and/or products to the consumers no matter what. 
 
+![SOA governance stakeholders and service lifecycle](images/soa-governance-0.png)
 
 Figure: SOA governance stakeholders and service lifecycle
 
@@ -39,6 +40,7 @@ As depicted in the above diagram, service lifecycle management via a set of poli
 
 Various software vendors started building SOA governance tools and most of the tools adhered to a solution architecture similar to the below diagram.
 
+![SOA governance solution architecture](images/soa-governance-1.png)
 
 Figure: SOA governance solution architecture
 
@@ -49,6 +51,7 @@ Initially, teams tried to build tools within themselves to keep track of various
 ## API Management
 Then came the API evolution and people shifted their focus into APIs and management of APIs instead of working on SOA governance initiatives. One of the reasons for the higher rate of adoption for API management platforms was that some of the governance aspects were already built into the API management solutions. These platforms offered a superset of features when compared to the SOA governance tools. Instead of working on SOA governance tools, people started using the API facade pattern to hide the complexity of services governance by introducing APIs in front of those services as proxies and exposed those APIs via the built-in developer portals. In addition to that, lifecycle management capabilities and workflow engagement for state transitions and access management were available as out of the box features. 
 
+![API Management for SOA governance](images/soa-governance-2.png)
 
 Figure: API Management for SOA governance
 
@@ -56,6 +59,7 @@ As depicted in the above figure, API gateways were put in front of the service r
 
 Most of the API management tools support the governance of the APIs which are deployed at the gateway runtime which comes with the same vendor. In large corporations, different teams use different vendors based on the fit with other infrastructure and initiatives. Due to that, the need for a single API management layer that can support other API gateways is becoming the next level of the API governance. This is sometimes called as “API Federation” or “Bring Your Own Gateway” (BYOG). This requirement can be supported with a properly decoupled management and gateway components as well as a widely accepted standard for connecting from gateways to the management plane. 
 
+![Federated API management](images/soa-governance-3.png)
 
 Figure: Federated API management
 
@@ -69,6 +73,7 @@ One option to cater to this requirement is to support these backend services gov
 
 The other option is to find a modern governance tool that can support SOA governance while integrating with API governance (management) tools offered by the API management vendors. 
 
+![API management with SOA governance](images/soa-governance-4.png)
 
 Figure: API Management with SOA governance
 
