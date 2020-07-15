@@ -66,6 +66,10 @@ This repository contains solution architecture patterns which can be reused to b
 - OpenAPI Based Digital Transformation pattern
 [OpenAPI Based Digital Transformation Pattern](vendor-neutral/OpenAPI-Based-Digital-Transformation-Pattern.md)
 
+- SOA Governance to API Management Pattern
+[SOA Governance to API Management Pattern](vendor-neutral/SOA-governance-to-API-management-pattern.md)
+
+
 ## Industry specific architecture patterns
 These patterns are specific to a business domain or an industry. Most of these patterns can be considered as reference archtiectures.
 
