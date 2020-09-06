@@ -70,7 +70,7 @@ https://wso2.com/whitepapers/building-an-api-strategy-using-an-enterprise-api-ma
 I have taken one diagram from the article to discuss the high-level advantages of the API marketplace in relation to our topic.
 
 
-![API Marketplace](building-and-api-strategy-using-an-enterprise-api-marketplace-figure-3.png)
+![API Marketplace](../images/building-and-api-strategy-using-an-enterprise-api-marketplace-figure-3.png)
 
 
 Source: https://wso2.com/whitepapers/building-an-api-strategy-using-an-enterprise-api-marketplace/
@@ -118,7 +118,7 @@ https://apim.docs.wso2.com/en/latest/learn/consume-api/manage-application/sharin
 
 WSO2 API Manager has most of the features required to build a reusable API platform. It allows enterprise architects to build API platforms that can reap the benefits of the API economy successfully.
 
-![Reusable API platform with WSO2 API Manager](reusable-api-platform-wso2-apim.png)
+![Reusable API platform with WSO2 API Manager](../images/reusable-api-platform-wso2-apim.png)
 
 
 Figure: Reusable API platform with WSO2 API Manager
@@ -129,7 +129,7 @@ The figure mentioned above depicts the various components of the WSO2 API Manage
 
 The next step of API reusability is the BYOAPI concept where different teams can bring their own set of APIs which are deployed and running on their own API gateways and register with one central API developer portal. This is a novel concept that is required by large corporations where they have multiple API gateway vendors running in parallel.
 
-![Bring your own APIs](bring-your-own-api-architecture.png)
+![Bring your own APIs](../images/bring-your-own-api-architecture.png)
 
 
 Figure: Bring Your Own APIs (BYOAPI) architecture
