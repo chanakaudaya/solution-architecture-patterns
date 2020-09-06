@@ -27,5 +27,7 @@ This directory contains solution architecture patterns which are built using WSO
 - [Modern Brown-Field Enterprise With WSO2](patterns/Modern-Brown-Field-Enterprise-WSO2.md)
 - [Legacy platform modernization with WSO2](patterns/Legacy-Platform-Modernization-with-WSO2.md)
 - [Reusable API Platform with WSO2 API Manager](patterns/Reusable-API-Platform-WSO2-API-Manager-Pattern.md)
+- [Event-driven Real-time Information System with Kafka and WSO2](patterns/Event-Driven-Real-Time-Information-System-Kafka-WSO2.md)
+
 
 
