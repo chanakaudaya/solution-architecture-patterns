@@ -85,6 +85,9 @@ These patterns are specific to a business domain or an industry. Most of these p
 - Digital Health Platform Open Source Architecture
 [Digital Health Platform Open Source Architecture](industry-specific/Digital-Health-Platform-Open-Source-Architecture.md)
 
+- Hospitality Platform Reference Architecture
+[Hospitality Platform Reference Architecture](industry-specific/Hospitality-Platform-Reference-Architecture-WSO2.md)
+
 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
