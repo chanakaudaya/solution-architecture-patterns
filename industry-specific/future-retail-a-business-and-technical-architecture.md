@@ -45,9 +45,7 @@ Irrespective of whether you are a large retail chain like Walmart, The Home Depo
 The retail industry went through an apocalypse in the past decade when over 12,000 physical stores across many retailers closed down in North America owing to factors like over-expansion of malls, rising rents, bankruptcies, low quarterly profits outside holiday binge spending, delayed effects of the great recession, and shifts in spending habits. However, previous statistics show that retail spending is increasing year on year. So where are all the sales happening if not at stores?
 Due to the increasing usage of internet connectivity and its penetration, online shopping has been a major driver for the retail industry. The Global Consumer Insights Survey 2019 shows that almost a third of consumers buy products online weekly or more frequently, up by 5% year-on-year (refer figure 1). As a result, consumer shopping habits have largely shifted from physical stores to digital channels like e-commerce websites and mobile apps.
 
-<p align="center">
-  <img src="file:///images/retail-fig1.png">
-</p>
+![Frequency of online shopping](images/retail-fig1.png)
 
 <p align="center">
 <i>
@@ -81,9 +79,8 @@ Several small and medium retailers operating on agile practices quickly adapted 
 ### 2.6 Other Concerns
 In research done by Accenture, the impacts of pervasiveness, personalization, and privacy were seen to be key challenges to C-suite in the era of retail. Converging industries and complex customer expectations call for retailers to build on each era from Scientific Retail, Customer-Centric Retail, and now Seamless Retail (Figure 2). As customer needs and expectations continue to evolve, retailers must establish nimble, flexible, agile organizations. They must become adaptive.
 
-<p align="center">
-  <img src="file:///images/retail-fig2-accenture.png">
-</p>
+![Converging Industries and Customer Expectations of Retail](images/retail-fig2-accenture.png)
+
 <p align="center">
 <i>
 Figure 2: Converging Industries and Customer Expectations of Retail (Accenture, 2019)<br/>
@@ -128,9 +125,8 @@ Table 1: Business and Technical Objectives forming the Business Architecture
 |Scale to demand|To meet increasing demand.<br>To enable quick adoption.<br>To scale to increasing demand, and provide reliability, availability, and resiliency.|
 |Flexible technology foundation|No vendor-lock-in.<br>Cost-effective solution.|
 
-<p align="center">
-  <img src="file:///images/retail-fig3-BA.png">
-</p>
+![Business Architecture for Retail](images/retail-fig3-BA.png)
+
 <p align="center">
 <i>
 Figure 3: Business Architecture for Retail<br/>
@@ -147,9 +143,8 @@ Legend to Figure 3:
 ### 3.2 Application Landscape of Retail
 Figure 4 depicts one of the possible application landscapes for a typical large/ medium retail chain. To make this retail store possible, different retail components like point-of-sale systems, inventory management, warehousing, sourcing, and in-store devices have to work together. However, it is not currently designed to achieve the business architecture or objectives set out in section 3.1 above as there are several challenges. For instance, the systems may have been acquired at different points in time, and may not be connected to achieve the desired objectives. 
 
-<p align="center">
-  <img src="file:///images/retail-fig4-apparc.png">
-</p>
+![Application Architecture of a Retail Chain](images/retail-fig4-apparc.png)
+
 <p align="center">
 <i>
 Figure 4: Application Architecture of a Retail Chain<br/>
@@ -186,9 +181,8 @@ The technical architecture can be divided into 2 main components.
 
 Let’s take a look at the technical architecture which we can derive for the retail industry based on the points we have discussed in this article so far.
 
-<p align="center">
-  <img src="file:///images/retail-fig5-ref_arc.png">
-</p>
+![Technical reference architecture for retail chain](images/retail-fig5-ref_arc.png)
+
 <p align="center">
 <i>
 Figure 5: Technical reference architecture for retail chain<br/>
@@ -235,9 +229,8 @@ Here are the main middleware components and their functionalities used when depl
 
 This control center deployment can be a scalable deployment spanning across multiple data centers for high availability and better user experience. 
 
-<p align="center">
-  <img src="file:///images/retail-fig6-swarc.png">
-</p>
+![Software reference architecture for retail](images/retail-fig6-swarc.png)
+
 <p align="center">
 <i>
 Figure 6: Software reference architecture for retail<br/>
