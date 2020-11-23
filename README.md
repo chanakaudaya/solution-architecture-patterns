@@ -88,6 +88,9 @@ These patterns are specific to a business domain or an industry. Most of these p
 - Hospitality Platform Reference Architecture
 [Hospitality Platform Reference Architecture](industry-specific/Hospitality-Platform-Reference-Architecture-WSO2.md)
 
+- Retail Platform Reference Architecture
+[Retail Platform Reference Architecture](industry-specific/future-retail-a-business-and-technical-architecture.md)
+
 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
