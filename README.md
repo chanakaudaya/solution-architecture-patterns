@@ -96,12 +96,53 @@ These patterns are specific to a business domain or an industry. Most of these p
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
 - [Amazon Web Services (AWS)](vendor-specific/aws)
+    - [AWS Solutions Architecture Site](https://aws.amazon.com/architecture)
+    - [AWS Networking in a Nutshell](AWS-Networking-In-a-Nutshell.md)
+
 - [Microsoft Azure](vendor-specific/azure)
+    - [Azure solutions architecture site](https://azure.microsoft.com/en-us/solutions/architecture/)
+    - [Cloud design patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+    - [Azure networking in a nutshell](Azure-Networking-Services-in-a-nutshell.md)
+
 - [Google Cloud Platform (GCP)](vendor-specific/gcp)
+    - [GCP Solutions architecture web site](https://cloud.google.com/solutions/)
+
 - [Mulesoft](vendor-specific/mulesoft)
+    - [Mulesoft Deployment Options](https://docs.mulesoft.com/runtime-manager/deployment-strategies)
+
 - [Pivotal](vendor-specific/pivotal)
+    - [Introduction to Pivotal Cloud Foundry from the outset](Pivotal-Cloud-Foundry-Pattern.md)
+
 - [RedHat](vendor-specific/redhat)
+    - [RedHat Architecture Guidelines](https://www.redhat.com/architect/)
+
 - [WSO2](vendor-specific/wso2)
+    #### Identity and Access Management (WSO2 Identity Server)
+
+    - [Cloud Application Security Pattern](patterns/Cloud-Application-Security-Pattern.md)
+    - [Security Federation Pattern](patterns/Security-Federation-Pattern.md)
+
+    #### API Management (WSO2 API Manager)
+
+    ##### API Manager Extensions
+    - [API Manager 3rd party key manager integration pattern](patterns/API-manager-3rd-party-KM-integration.md)
+
+    ##### API Microgateway deployment patterns
+    - [Decentralized API Gateway pattern](patterns/Microgateway-Pattern1-Decentralized-Gateway.md)
+    - [Locked-Down/Offline API Gateway pattern](patterns/Microgateway-Pattern2-Locked-Down-Gateway.md)
+    - [Seasonal API Gateway pattern](patterns/Microgateway-Pattern3-Seasonal-Gateway.md)
+    - [Multi data center API Gateway pattern](patterns/Microgateway-Pattern4-Multi-Data-Center-Gateway.md)
+    - [Service Mesh sidecar API Gateway pattern](patterns/Microgateway-Pattern5-Service-Mesh-Sidecar-Gateway.md)
+    - [Hybrid API Gateway pattern](patterns/Microgateway-Pattern6-Hybrid-API-Gateway.md)
+
+    #### Application Integration (WSO2 Enterprise Integrator)
+    - [WSO2 EI7 Solution Patterns](patterns/WSO2-EI7-Solution-patterns.md)
+
+    #### Platform solutions (WSO2 Platform)
+    - [Modern Brown-Field Enterprise With WSO2](patterns/Modern-Brown-Field-Enterprise-WSO2.md)
+    - [Legacy platform modernization with WSO2](patterns/Legacy-Platform-Modernization-with-WSO2.md)
+    - [Reusable API Platform with WSO2 API Manager](patterns/Reusable-API-Platform-WSO2-API-Manager-Pattern.md)
+    - [Event-driven Real-time Information System with Kafka and WSO2](patterns/Event-Driven-Real-Time-Information-System-Kafka-WSO2.md)
 
 ## Technology selection guides [NEW]
 - [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
