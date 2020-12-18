@@ -8,7 +8,7 @@ Mobile Network Operator (MNO)s are the main players of the telecommunication gam
 
 **Figure 1: Telecommunication industry stake holders**
 
-- Mobile Network Operator (MNO) — The main stake holder of providing telecommunication services to subscribers. It is resposible for purchasing the frequencies, setting up the infrastructure (singalling towers, base stations, switches, antennas, etc.), designing the network based on capacities, testing the signal strengths and finally marketing and selling the service to the end users.
+- Mobile Network Operator (MNO) — The main stake holder of providing telecommunication services to subscribers. It is resposible for purchasing the frequencies, setting up the infrastructure (signalling towers, base stations, switches, antennas, etc.), designing the network based on capacities, testing the signal strengths and finally marketing and selling the service to the end users.
 
 - Subscribers — The end users who are using the network which is built and maintained by the MNO and pay for the subscription.
 Equipment manufacturers — Vendors who do research on technological advancements and build the equipments (antennas, routers, switches, servers, etc.) which provides the infrastructure layer for message exchanges.
