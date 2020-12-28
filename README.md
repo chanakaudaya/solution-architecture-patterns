@@ -91,6 +91,8 @@ These patterns are specific to a business domain or an industry. Most of these p
 - Retail Platform Reference Architecture
 [Retail Platform Reference Architecture](industry-specific/future-retail-a-business-and-technical-architecture.md)
 
+- Higher Education Information Technology Architecture [Higher Education Information Technology Architecture](industry-specific/Higher-Education-Information-Technology-Architecture.md)
+
 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 

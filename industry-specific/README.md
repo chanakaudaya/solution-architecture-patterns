@@ -14,3 +14,5 @@
 
 - Retail Platform Reference Architecture
 [Retail Platform Reference Architecture](future-retail-a-business-and-technical-architecture.md)
+
+- Higher Education Information Technology Architecture [Higher Education Information Technology Architecture](industry-specific/Higher-Education-Information-Technology-Architecture.md)
