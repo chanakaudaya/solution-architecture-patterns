@@ -111,7 +111,7 @@ These patterns are specific to a vendor and some of the terminology used in thes
 
 - [WSO2](vendor-specific/wso2)
 
-## Technology selection guides [NEW]
+## Technology selection guides
 - [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
 
 # License details
