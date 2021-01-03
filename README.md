@@ -97,22 +97,22 @@ These patterns are specific to a business domain or an industry. Most of these p
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
 
-- [Amazon Web Services (AWS)](vendor-specific/aws)
+- Amazon Web Services (AWS) [Amazon Web Services (AWS)](vendor-specific/aws)
 
-- [Microsoft Azure](vendor-specific/azure)
+- Microsoft Azure [Microsoft Azure](vendor-specific/azure)
 
-- [Google Cloud Platform (GCP)](vendor-specific/gcp)
+- Google Cloud Platform (GCP)[Google Cloud Platform (GCP)](vendor-specific/gcp)
 
-- [Mulesoft](vendor-specific/mulesoft)
+- Mulesoft [Mulesoft](vendor-specific/mulesoft)
 
-- [Pivotal](vendor-specific/pivotal)
+- Pivotal [Pivotal](vendor-specific/pivotal)
 
-- [RedHat](vendor-specific/redhat)
+- RedHat [RedHat](vendor-specific/redhat)
 
-- [WSO2](vendor-specific/wso2)
+- WSO2 [WSO2](vendor-specific/wso2)
 
 ## Technology selection guides
-- [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
+- API Management platform selection guide [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
 
 # License details
 
