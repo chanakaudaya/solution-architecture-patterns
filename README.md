@@ -93,6 +93,8 @@ These patterns are specific to a business domain or an industry. Most of these p
 
 - Higher Education Information Technology Architecture [Higher Education Information Technology Architecture](industry-specific/Higher-Education-Information-Technology-Architecture.md)
 
+- Energy industry Information Technology Reference Architecture [Energy industry Information Technology Reference Architecture](industry-specific/Energy-Information-Technology-Reference-Architecture.md)
+
 
 ## Vendor specific architecture patterns
 These patterns are specific to a vendor and some of the terminology used in these diagrams may not be common across other vendors. 
