@@ -115,6 +115,7 @@ These patterns are specific to a vendor and some of the terminology used in thes
 
 ## Technology selection guides
 - API Management platform selection guide [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
+- Integration platform selection guide [Integration platform selection guide](technology-selection-guides/Integration-Platform-selection-guide.md)
 
 # License details
 
