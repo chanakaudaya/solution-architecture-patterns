@@ -18,3 +18,5 @@
 - Higher Education Information Technology Architecture [Higher Education Information Technology Architecture](Higher-Education-Information-Technology-Architecture.md)
 
 - Energy industry Information Technology Reference Architecture [Energy industry Information Technology Reference Architecture](Energy-Information-Technology-Reference-Architecture.md)
+
+- Automotive industry Information Technology Reference Architecture [Automotive industry Information Technology Reference Architecture](Automotive-Industry-Information-Technology-Reference-Architecture.md)
