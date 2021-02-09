@@ -18,6 +18,8 @@ This repository contains solution architecture patterns which can be reused to b
 - Centralized Identity and Access Management Pattern
 [Centralized Identity and Access Management Pattern](vendor-neutral/Centralized-Identity-Access-Management-Pattern.md)
 
+- Change Data Capture Pattern [Change Data Capture Pattern](vendor-neutral/Introduction-to-Change-Data-Capture.md)
+
 - Cloud Migration with Strangler Pattern
 [Cloud Migration with Strangler Pattern](vendor-neutral/Cloud-Migration-Strangler-Pattern.md)
 
