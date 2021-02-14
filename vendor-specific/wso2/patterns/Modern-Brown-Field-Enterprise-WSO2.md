@@ -28,7 +28,7 @@ In addition to that, there can be newly built services which are developed as pa
 ## Solution Architecture
 Let’s take a look at how these requirements can be fulfilled with an architecture diagram.
 
-![Modern brown-field enterprise with WSO2](images/Modern-Brown-Field-Enterprise-WSO2.png)
+![Modern brown-field enterprise with WSO2](../images/Modern-Brown-Field-Enterprise-WSO2.png)
 
 Figure: Modern enterprise system with WSO2 technology
 

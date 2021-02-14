@@ -11,7 +11,7 @@ If you think just about the tasks and responsibilities you already have similar 
 ## Existing legacy platform (Step 0)
 Let’s come back to the ground and try to understand the current legacy enterprise platform you are having in your enterprise along with the challenges it has.
 
-![Legacy platform](images/modernize-legacy-platforms-with-wso2-0.png)
+![Legacy platform](../images/modernize-legacy-platforms-with-wso2-0.png)
 
 Figure: Legacy enterprise platform — challenges and expectations
 
@@ -40,7 +40,7 @@ As I mentioned at the beginning of this post, addressing these challenges is nec
 ## Start the modernization (Step 1)
 Once the existing challenges and the broader picture is identified and convinced to at least some of the stakeholders (sometimes you can’t convince everyone to get things started), you should start somewhere. One important aspect of doing any migration or modernization is to do that with minimum impact on existing users. This is the reason why we should bring in a layer at the highest point of interaction to the customer just below the load balancer or proxy.
 
-![Legacy modernization with APIs](images/modernize-legacy-platforms-with-wso2-1.png)
+![Legacy modernization with APIs](../images/modernize-legacy-platforms-with-wso2-1.png)
 
 Figure: Legacy modernization step 1
 
@@ -62,7 +62,7 @@ But still, there are a lot of issues, and challenges still exist in the overall 
 ## Establish the new platform (Step 2)
 Even though the API management platform is capable of supporting certain aspects like automation, cloud-native, agile development, and improve monitoring aspects, the rest of the platform is still not ready to build that integrated experience. Because of that, we have to identify the next phase of the modernization effort carefully and execute without frustrating the stakeholders.
 
-![Legacy modernization establishing](images/modernize-legacy-platforms-with-wso2-2.png)
+![Legacy modernization establishing](../images/modernize-legacy-platforms-with-wso2-2.png)
 
 Figure: Legacy platform modernization — establishing
 
@@ -83,7 +83,7 @@ At this stage, the modernization effort is well established and most of the chal
 ## Improve user experience (Step 3)
 With the enterprise platform in better shape in terms of scalability, management, automation, and innovation, the next step would be to improve the overall user experience of the platform while applying the better security models for users and applications. Though it feels like we are considering security as a secondary matter since it appeared in step 4, it is not the right way to look at this approach. From the beginning, the security was handled by applications and they managed their own user stores and their own security protocols. Through the API management platform, certain aspects of security were modernized with the use of OAuth 2.0 tokens. But consolidating the various user bases which spanned across multiple applications needs to be done once the systems are properly implemented.
 
-![Legacy modernization user experience improvement](images/modernize-legacy-platforms-with-wso2-3.png)
+![Legacy modernization user experience improvement](../images/modernize-legacy-platforms-with-wso2-3.png)
 
 Figure: Legacy modernization — improve user experience
 
@@ -94,7 +94,7 @@ All is well up to this point and the system is providing more and more functiona
 ## Make it future proof (Step 4)
 If you look at the figure in the previous section, there are 2 white boxes still we need to make green. Those are the resource under-utilization and cloud-native aspects. Based on research done in recent times, it is evident that more and more enterprises are moving their workloads to the cloud already or planning to migrate their workloads to the cloud in the future. As an enterprise architect who is planning a modernization effort, not thinking about cloud migration is a big mistake. Because of that, we should make the modernized platform cloud-friendly so that when the overall organization decides to go down the cloud direction, the platform is ready to move on to the cloud.
 
-![Legacy modernization future](images/modernize-legacy-platforms-with-wso2-4.png)
+![Legacy modernization future](../images/modernize-legacy-platforms-with-wso2-4.png)
 
 Figure: Legacy modernization — future proof deployment
 

@@ -5,7 +5,7 @@ Large enterprises which has global operations requires their applications to be 
 
 ### Architecture
 
-![Multi data center API gateway pattern](images/Microgateway-Pattern4-Multi-Data-Center-Gateway.png)
+![Multi data center API gateway pattern](../images/Microgateway-Pattern4-Multi-Data-Center-Gateway.png)
 Figure 1: Multi data center API gateway pattern
 
 As depicted in the above figure 4, the only component which shares data across data centers during the runtime is the analytics component which can connect to the other data centers in an offline manner. With the API microgateway, multi data center deployment has become much simpler and easier to implement and maintain. The above mentioned data centers can span across multiple cloud IaaS providers (Amazon, Google, Microsoft) as well.

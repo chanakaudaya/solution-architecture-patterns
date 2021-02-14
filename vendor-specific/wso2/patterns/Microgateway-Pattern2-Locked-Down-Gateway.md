@@ -5,7 +5,7 @@ Sometimes applications needs to be deployed in environment where there are no co
 
 ### Architecture
 
-![Locked-down API gateway pattern](images/Microgateway-Pattern2-Locked-Down-Gateway.png)
+![Locked-down API gateway pattern](../images/Microgateway-Pattern2-Locked-Down-Gateway.png)
 Figure 1: Locked-down API Gateway pattern
 
 As depicted in the above figure 1, WSO2 API Microgateway has the ability to run in this type of environment with it’s built in security (JWT based), rate limiting (local) and offline-analytics capabilities. The applications and microservices will get the same set of capabilities from the API Microgateway, though there is no connection at all with the rest of the components of the API Manager. The Analytics data will be collected into files and will be uploaded to the analytics runtime when there is a connection established with that component.

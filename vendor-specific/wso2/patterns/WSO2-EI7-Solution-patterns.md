@@ -44,7 +44,7 @@ Let’s consider an organization that is not an early adopter of cutting edge te
 ### Synchronous Hybrid Integration Pattern
 If your enterprise offers data to external and internal consumers through web applications, mobile applications or terminal applications, most of the time, these communications happen through HTTP and are synchronous (request/response). If your backend systems or the systems of record also works in a similar manner (synchronous), then you can make integrations pretty straightforward using an integration runtime. For this purpose, you can use the Micro Integrator profile of the WSO2 EI7 as depicted in the below figure.
 
-![Synchronous Hybrid Integration](images/Synchronous-Hybrid-Integration-WSO2-EI7.png)
+![Synchronous Hybrid Integration](../images/Synchronous-Hybrid-Integration-WSO2-EI7.png)
 
 Figure: Synchronous Hybrid Integration Pattern
 
@@ -69,7 +69,7 @@ If we extend the previously mentioned organization with some additional requirem
 
 Now we have to use the asynchronous messaging pattern along with the synchronous messaging pattern which was used for previous integrations. Let’s see how this can be catered with WSO2 EI7 Micro Integrator runtime.
 
-![Sync-Async Hybrid Integration Pattern](images/Sync-Async-Hybrid-Integration-WSO2-EI7.png)
+![Sync-Async Hybrid Integration Pattern](../images/Sync-Async-Hybrid-Integration-WSO2-EI7.png)
 
 Figure: Sync-Async Hybrid Integration Pattern
 
@@ -96,7 +96,7 @@ As we mentioned at the beginning, WSO2 EI7 comes with another profile that fits 
 
 Similarly, for the second use case which is to process a continuous set of events (stream) that has correlated data, SI can be used and generate valuable insights from the data and push those results to various event sinks. As an example, users can output these results as notifications or store them in summary databases for visualizations. Let’s see how this looks like architecturally.
 
-![Sync-Async-Eventing Hybrid Integration Pattern](images/Sync-Async-Eventing-Hybrid-Integration-WSO2-EI7.png)
+![Sync-Async-Eventing Hybrid Integration Pattern](../images/Sync-Async-Eventing-Hybrid-Integration-WSO2-EI7.png)
 
 Figure: Sync-Async-Eventing Hybrid Integration Pattern
 
