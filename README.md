@@ -121,6 +121,13 @@ These patterns are specific to a vendor and some of the terminology used in thes
 - API Management platform selection guide [API Management platform selection guide](technology-selection-guides/API-Management-Platform-selection-guide.md)
 - Integration platform selection guide [Integration platform selection guide](technology-selection-guides/Integration-Platform-selection-guide.md)
 
+## Related architecture resources
+- Technology reference architecture [Technology reference architecture](https://github.com/wso2/reference-architecture)
+- Design patterns for humans [Design patterns for humans](https://github.com/kamranahmedse/design-patterns-for-humans)
+- Awesome scalability [Awesome scalability](https://github.com/binhnguyennus/awesome-scalability)
+- Awesome design patterns [Awesome design patterns](https://github.com/DovAmir/awesome-design-patterns)
+- Awesome distributed systems [Awesome distributed systems](https://github.com/theanalyst/awesome-distributed-systems)
+
 # License details
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
