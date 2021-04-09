@@ -1,4 +1,4 @@
-## This directory contains industry specific solution architecture patterns
+## Industry specific solution architecture patterns
 
 - Telecommunication Reference Architecture
 [Telecommunication Reference Architecture](Telecommunication-reference-architecture-pattern.md)
