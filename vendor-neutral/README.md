@@ -71,3 +71,6 @@ This directory contains the architecture patterns are generic and vendor indepen
 
 - Microservices Governance and API Management Pattern
 [Microservices Governance and API Management Pattern](Microservices-Governance-And-API-Management.md)
+
+- Innovation Driven Enterprise Platform Architecture
+[Innovation Driven Enterprise Platform Architecture](Innovation-Driven-Enterprise-Platform-Architecture.md)

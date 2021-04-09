@@ -74,6 +74,8 @@ This repository contains solution architecture patterns which can be reused to b
 - Microservices Governance and API Management Pattern
 [Microservices Governance and API Management Pattern](vendor-neutral/Microservices-Governance-And-API-Management.md)
 
+- Innovation Driven Enterprise Platform Architecture
+[Innovation Driven Enterprise Platform Architecture](vendor-neutral/Innovation-Driven-Enterprise-Platform-Architecture.md)
 
 ## Industry specific architecture patterns
 These patterns are specific to a business domain or an industry. Most of these patterns can be considered as reference archtiectures.
