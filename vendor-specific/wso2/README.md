@@ -29,5 +29,9 @@ This directory contains solution architecture patterns which are built using WSO
 - [Reusable API Platform with WSO2 API Manager](patterns/Reusable-API-Platform-WSO2-API-Manager-Pattern.md)
 - [Event-driven Real-time Information System with Kafka and WSO2](patterns/Event-Driven-Real-Time-Information-System-Kafka-WSO2.md)
 
+### Cloud deployment patterns
+- [WSO2 APIM and EI deployment reference architecture for AWS](patterns/APIM-EI-Deployment-Reference-Architecture-AWS.md)
+
+
 
 
