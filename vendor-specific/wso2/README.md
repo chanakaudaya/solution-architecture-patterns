@@ -33,6 +33,10 @@ This directory contains solution architecture patterns which are built using WSO
 - [WSO2 APIM and EI deployment reference architecture for AWS](patterns/APIM-EI-Deployment-Reference-Architecture-AWS.md)
 - [WSO2 APIM and EI deployment reference architecture for Azure](patterns/APIM-EI-Deployment-Reference-Architecture-Azure.md)
 
+### Industry Specific Solution Patterns
+- [Open Health Savings Solution](patterns/Open-Health-Savings.md)
+
+
 
 
 

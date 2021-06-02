@@ -41,7 +41,7 @@ It should allow them to discover APIs and subscribe to them. The lifecycle chang
 After signing into the HC portal. As shown in Figure 1 the organization will have the option to choose from a list of pre-defined standard FHIR based APIs which they wish to have as a part of their solution. 
 If organizations desires they could create their own API definitions as well.
 
-![Figure 1](images/health/Figure_1-FHIT-API-Portal.png)
+![Figure 1](../images/health/Figure_1-FHIT-API-Portal.png)
 
 Figure 1- FHIR API Portal
 
@@ -55,13 +55,13 @@ Developers should focus on enhancing the domain specific features which will dir
 
 As shown in Figure 2, once the APIs are selected the wizard will guide an organization to a page which will contain an Integrator Studio project with auto generated artifacts.
 
-![Figure 2](images/health/Figure_2-Autogen-Proj-Download.png)
+![Figure 2](../images/health/Figure_2-Autogen-Proj-Download.png)
 
 Figure 2 — Auto Generated Project Download
 
 As shown in Figure 3, Integration Studio will provide a graphical interface for organization’s developers to convert the existing resources in organization to be FHIR compliant.
 
-![Figure 3](images/health/Figure_3-Integration-Studio.png)
+![Figure 3](../images/health/Figure_3-Integration-Studio.png)
 
 Figure 3 — Integration Studio
 
@@ -70,25 +70,25 @@ The Studio interface will provide the capability for developers to graphically d
 Further organizations will be able to do complex data transformations, enrichment via a graphical data mapping technology available in Integration Studio. 
 As shown in Figure 4 transformations can be done in seconds.
 
-![Figure 4](images/health/Figure_4-Visual-DM.png)
+![Figure 4](../images/health/Figure_4-Visual-DM.png)
 
 ## Collaboration & Governance
 
 As depicted in Figure 5, Open HealthCare publisher portal provides an interface for in-house API developers to govern and manage APIs. 
 They could specify security policies, QoS policies, SLA rules related to APIs using this portal.
 
-![Figure 5](images/health/Figure_5-Pub-Portal.png)
+![Figure 5](../images/health/Figure_5-Pub-Portal.png)
 
 For each API a graphical interface is provided to maintain its life cycle. Which is depicted in Figure 6.
 
-![Figure 6](images/health/Figure_6-API-LM.png)
+![Figure 6](../images/health/Figure_6-API-LM.png)
 
 Figure 6 — API Lifecycle Management
 
 Published API can be viewed from the API Developer portal as shown in Figure 7. 
 Third party application vendors could discover APIs available in the developer portal, subscribe to these APIs and get connected with the organization’s health platform.
 
-![Figure 7](images/health/Figure_7-DevPortal.png)
+![Figure 7](../images/health/Figure_7-DevPortal.png)
 
 Figure 7 — Open Health API Developer Portal
 
@@ -97,7 +97,7 @@ Figure 7 — Open Health API Developer Portal
 
 Open Health platform provides consent management capabilities for an organization. As depicted in Figure 8 patients consent will be obtained prior to accessing his/her data.
 
-![Figure 8](images/health/Figure_8-Consent-Mgt.png)
+![Figure 8](../images/health/Figure_8-Consent-Mgt.png)
 
 Figure 8 — Consent Management
 
