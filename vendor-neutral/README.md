@@ -58,7 +58,7 @@ This directory contains the architecture patterns are generic and vendor indepen
 [Microservices with NATS messaging](Microservices-with-NATS-messaging.md)
 
 - Microservices without Service Mesh
-[Microservices without Service Mesh](Microservices-without-service-mesh.md)
+[Microservices without Service Mesh](Microservices-without-service-mesh-pattern.md)
 
 - Microservices Security Pattern - Policy based
 [Microservices Security Pattern - Policy based](Microservices-Security-Pattern-Policy-Based.md)
