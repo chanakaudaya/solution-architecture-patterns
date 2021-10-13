@@ -56,3 +56,4 @@ The preceding figure introduces the NATS message broker in place of the service 
 In fact, NATS provides the same set of capabilities (even more) as the service mesh without adding much complexity to the overall solution. It eases out the dependencies of services with each other and allows them to operate in a truly independent manner.
 
 If you need to learn more on this topic and understand how to design and implement microservices-based enterprise platforms, you can read this book on the subject from the following links. It provides practical examples of how to design and implement a microservices-based platform with NATS.
+[Designing Microservices Platforms with NATS](https://www.packtpub.com/product/designing-microservices-platforms-with-nats/9781801072212)
