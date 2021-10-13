@@ -59,6 +59,9 @@ This repository contains solution architecture patterns which can be reused to b
 - Microservices with NATS messaging
 [Microservices with NATS messaging](vendor-neutral/Microservices-with-NATS-messaging.md)
 
+- Microservices without Service Mesh pattern
+[Microservices without Service Mesh](vendor-neutral/Microservices-without-service-mesh-pattern.md)
+
 - Microservices Security Pattern - Policy based
 [Microservices Security Pattern - Policy based](vendor-neutral/Microservices-Security-Pattern-Policy-Based.md)
 
