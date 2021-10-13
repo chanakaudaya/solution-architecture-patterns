@@ -17,6 +17,8 @@ The popular solution to deal with these challenges is the Service Mesh. A servic
 ## What is a Service Mesh?
 The figure below depicts the general architecture of a service mesh.
 
+![Service Mesh Architecture](./images/microservices-wo-sm-1.png)
+
 Figure: Service Mesh Architecture
 
 The data plane takes care of the communication of messages from one service to another service while the control plane takes care of the supporting functionalities such as routing, access control, and service discovery.
@@ -36,6 +38,8 @@ Observability can be implemented with the usage of UUIDs attached to the message
 
 ## Microservices with NATS
 The below figure depicts the architecture of using NATS as the inter-service communication mechanism to build a microservices-based platform.
+
+![Microservices with NATS](./images/microservices-wo-sm-2.png)
 
 Figure: Microservices Inter-Service Communication with NATS
 
