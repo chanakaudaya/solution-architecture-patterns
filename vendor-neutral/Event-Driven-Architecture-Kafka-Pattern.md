@@ -22,7 +22,7 @@ Kafka has aggregated several advantages of existing messaging systems into a one
 
 - Ability to build cloud scale message processing platforms with fault tolerance
 - Message persistence and durability with a configurable retention period with control at the consumer end allows consumers the freedom to process messages at their will
-- Order of the messages are guaranteed within a parition which is critical in some use cases
+- Order of the messages are guaranteed within a partition which is critical in some use cases
 - Replication allows messages to be stored reliably so that failure of n-1 nodes within a n node cluster with replication count of n does not affect the message delivery to the consumers
 - Scalability of cluster allows to deploy the system across multiple data centers for highest levels of availability and better performance
 - Streams API allows the events to be processed in real-time with stream processing engines
