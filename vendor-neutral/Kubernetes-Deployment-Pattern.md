@@ -56,7 +56,7 @@ These are the nodes which runs the actual work loads in a container platform as 
 Kubernetes uses etcd as the key value store to keep the metadata about the state of the kubernetes cluster. 
 
 #### Image repository
-Kubernetes runs containers using an image repository. This repository conatins the container images which contains the work load.
+Kubernetes runs containers using an image repository. This repository contains the container images which contains the work load.
 
 #### Storage
 Containers are ephemeral in nature and they will come and go without keeping any state. But all the applications cannot survive without the state. To keep state across container restarts, kubernetes offers storage services.
