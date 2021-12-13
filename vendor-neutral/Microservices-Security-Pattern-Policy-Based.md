@@ -1,4 +1,4 @@
-# Micoservices Security Pattern - Implementing a policy based security for microservices with OPA
+# Microservices Security Pattern - Implementing a policy based security for microservices with OPA
 
 ## Introduction
 Implementing security for a microservices architecture can be done with 2 approaches. 
