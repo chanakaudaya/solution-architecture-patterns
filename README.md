@@ -132,6 +132,7 @@ These patterns are specific to a vendor and some of the terminology used in thes
 - Awesome scalability [Awesome scalability](https://github.com/binhnguyennus/awesome-scalability)
 - Awesome design patterns [Awesome design patterns](https://github.com/DovAmir/awesome-design-patterns)
 - Awesome distributed systems [Awesome distributed systems](https://github.com/theanalyst/awesome-distributed-systems)
+- Technology Architecture Lessons[Technology Architecture Lessons](https://www.developertoarchitect.com/lessons/)
 
 # License details
 
