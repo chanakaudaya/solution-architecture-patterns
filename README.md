@@ -1,6 +1,10 @@
 # Solution Architecture Patterns
 This repository contains solution architecture patterns which can be reused to build enterprise software systems. Some of these patterns are well established in the industry and some of them are evolving patterns while there is another set which is at conceptual level. 
 
+We have released a book to explain the topics discussed in this repository in a greater detail. You can find the link to the book below.
+**[Solution Architecture Patterns for Enterprise](https://a.co/d/8cZ5SHp)**
+
+
 ## Vendor neutral architecture patterns
 
 - API Security pattern
