@@ -31,4 +31,4 @@ Kafka has aggregated several advantages of existing messaging systems into a one
 - Build reliable messaging platforms which delivers messages across systems at cloud scale
 - Build real time event processing systems with machine learning, AI based processing
 - Build large scale data processing systems like log monitoring, ETL based systems
-- Build systems with event sourcing where each activity is considered as a an event which is attached to an event log
+- Build systems with event sourcing where each activity is considered as an event which is attached to an event log
